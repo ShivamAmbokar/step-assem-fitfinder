@@ -1,0 +1,6 @@
+1 part(s) / 4 position(s) fit the selected faces [1, 2]  (0.9 s)
+  [1] body: exact (clearance 0.0 mm), revolute -> coincident, can turn  - 4 positions
+        match #1: faces [4, 9]  [in-place + search]
+        match #2: faces [5, 10]  [in-place + search]
+        match #3: faces [6, 11]  [in-place + search]
+        match #4: faces [7, 12]  [in-place + search]

@@ -1,0 +1,2 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,LeadScrew-20mm.1,LeadScrew-20mm.1,2,12,1.0,exact,0.0,cylindrical,search

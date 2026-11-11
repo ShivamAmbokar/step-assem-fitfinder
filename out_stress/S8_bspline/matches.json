@@ -1,0 +1,269 @@
+{
+ "part": "tests_stress/S8_bspline/part.step",
+ "assembly": "tests_stress/S8_bspline/assembly.step",
+ "selected_faces": [
+  4
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "pin"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_nurbs"
+   ],
+   "occurrences": [
+    "bush_nurbs"
+   ],
+   "faces": {
+    "bush_nurbs": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_nurbs",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0,
+     -0.6428,
+     0.766
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     0.766044,
+     -0.642788,
+     12.320096
+    ],
+    [
+     0.0,
+     0.642788,
+     0.766044,
+     -14.682518
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_nurbs_loose"
+   ],
+   "occurrences": [
+    "bush_nurbs_loose"
+   ],
+   "faces": {
+    "bush_nurbs_loose": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_nurbs_loose",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.6,
+   "joint": "cylindrical",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     0.9397,
+     0.0,
+     0.342
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.34202,
+     0.0,
+     0.939693,
+     101.989225
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -0.0
+    ],
+    [
+     -0.939693,
+     0.0,
+     0.34202,
+     -6.555386
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 2
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_plain"
+   ],
+   "occurrences": [
+    "bush_plain"
+   ],
+   "faces": {
+    "bush_plain": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_plain",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     60.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -19.166667
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 3,
+   "group": 3
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "bush_nurbs"
+   ],
+   "occurrences": [
+    "bush_nurbs"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "bush_nurbs_loose"
+   ],
+   "occurrences": [
+    "bush_nurbs_loose"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "clearance"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 3,
+   "parts": [
+    "bush_plain"
+   ],
+   "occurrences": [
+    "bush_plain"
+   ],
+   "positions": 1,
+   "match_ids": [
+    3
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.5
+}

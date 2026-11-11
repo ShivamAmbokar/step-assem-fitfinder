@@ -1,0 +1,73 @@
+36 part(s) / 36 position(s) fit the selected faces [4]  (1.9 s)
+  [1] bush_1: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #1: faces [4]  [search]
+  [2] bush_10: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #2: faces [4]  [search]
+  [3] bush_11: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #3: faces [4]  [search]
+  [4] bush_12: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #4: faces [4]  [search]
+  [5] bush_13: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #5: faces [4]  [search]
+  [6] bush_14: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #6: faces [4]  [search]
+  [7] bush_15: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #7: faces [4]  [search]
+  [8] bush_16: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #8: faces [4]  [search]
+  [9] bush_17: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #9: faces [4]  [search]
+  [10] bush_18: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #10: faces [4]  [search]
+  [11] bush_19: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #11: faces [4]  [search]
+  [12] bush_2: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #12: faces [4]  [search]
+  [13] bush_20: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #13: faces [4]  [search]
+  [14] bush_21: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #14: faces [4]  [search]
+  [15] bush_22: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #15: faces [4]  [search]
+  [16] bush_23: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #16: faces [4]  [search]
+  [17] bush_24: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #17: faces [4]  [search]
+  [18] bush_25: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #18: faces [4]  [search]
+  [19] bush_26: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #19: faces [4]  [search]
+  [20] bush_27: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #20: faces [4]  [search]
+  [21] bush_28: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #21: faces [4]  [search]
+  [22] bush_29: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #22: faces [4]  [search]
+  [23] bush_3: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #23: faces [4]  [search]
+  [24] bush_30: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #24: faces [4]  [search]
+  [25] bush_31: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #25: faces [4]  [search]
+  [26] bush_32: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #26: faces [4]  [search]
+  [27] bush_33: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #27: faces [4]  [search]
+  [28] bush_34: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #28: faces [4]  [search]
+  [29] bush_35: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #29: faces [4]  [search]
+  [30] bush_36: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #30: faces [4]  [search]
+  [31] bush_4: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #31: faces [4]  [search]
+  [32] bush_5: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #32: faces [4]  [search]
+  [33] bush_6: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #33: faces [4]  [search]
+  [34] bush_7: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #34: faces [4]  [search]
+  [35] bush_8: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #35: faces [4]  [search]
+  [36] bush_9: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #36: faces [4]  [search]

@@ -1,0 +1,2 @@
+cadquery>=2.4      # brings OCP (OpenCascade bindings) and vtk
+numpy

@@ -1,0 +1,3 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,sleeve_1,sleeve_1,7,4,0.917,exact,0.0,revolute,search
+2,sleeve_2,sleeve_2,7,4,0.917,exact,0.0,revolute,search

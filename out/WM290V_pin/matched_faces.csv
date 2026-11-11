@@ -1,0 +1,16 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,470,16,0.602,clearance,0.217,cylindrical,in-place
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,473,16,0.26,clearance,0.217,cylindrical,in-place
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,474,16,0.25,clearance,0.217,cylindrical,in-place
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,475,16,1.0,clearance,0.217,cylindrical,in-place
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,476,16,0.229,clearance,0.217,cylindrical,in-place
+2,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,460,16,0.64,clearance,0.217,cylindrical,in-place
+2,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,461,16,0.204,clearance,0.217,cylindrical,in-place
+2,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,463,16,0.743,clearance,0.217,cylindrical,in-place
+2,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,464,16,1.0,clearance,0.217,cylindrical,in-place
+2,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,507,16,0.25,clearance,0.217,cylindrical,in-place
+3,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,491,16,0.753,clearance,0.217,cylindrical,in-place
+3,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,492,16,0.34,clearance,0.217,cylindrical,in-place
+3,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,494,16,0.417,clearance,0.217,cylindrical,in-place
+3,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,496,16,0.25,clearance,0.217,cylindrical,in-place
+3,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,497,16,0.965,clearance,0.217,cylindrical,in-place

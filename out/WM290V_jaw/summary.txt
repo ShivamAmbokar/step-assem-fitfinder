@@ -1,0 +1,9 @@
+1 part(s) / 1 position(s) fit the selected faces [23, 33, 24, 26]  (35.7 s)
+  [1] Main Body.1: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #1: faces [314, 405, 407, 408]  [in-place + search]
+  near-miss 01. Test00-06.1: too small (-2.000 mm)
+  near-miss 01. Test00-12.1: too loose (+1.250 mm)
+  near-miss 01. Test00-12.2: too loose (+1.250 mm)
+  near-miss 01. Test00-M90S B34(ok).1: faces do not really overlap
+  warning SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1
+  warning EMPTY_PART: 6 entries in the file have no faces and are ignored

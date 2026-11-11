@@ -1,0 +1,142 @@
+{
+ "part": "tests_out/C_vice/part.step",
+ "assembly": "tests_out/C_vice/assembly.step",
+ "selected_faces": [
+  8,
+  4,
+  6,
+  7,
+  5
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "jaw"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "in-place + search",
+   "parts": [
+    "vice_body"
+   ],
+   "occurrences": [
+    "vice_body"
+   ],
+   "faces": {
+    "vice_body": [
+     3,
+     4,
+     8,
+     9,
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 8,
+     "target": "vice_body",
+     "target_face": 3,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 4,
+     "target": "vice_body",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 6,
+     "target": "vice_body",
+     "target_face": 9,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "vice_body",
+     "target_face": 8,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 5,
+     "target": "vice_body",
+     "target_face": 10,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.2,
+   "joint": "prismatic",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "engaged_length_mm": 188.68,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     119.513889
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "in_place": {
+    "fit": "clearance",
+    "clearance": 0.2,
+    "joint": "prismatic"
+   },
+   "id": 1,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "vice_body"
+   ],
+   "occurrences": [
+    "vice_body"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "clearance"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.5
+}

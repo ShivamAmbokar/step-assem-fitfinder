@@ -1,0 +1,325 @@
+{
+ "part": "tests_stress/S10_pinion_seat/part.step",
+ "assembly": "tests_stress/S10_pinion_seat/assembly.step",
+ "selected_faces": [
+  1,
+  2
+ ],
+ "selection_dof": {
+  "translations": 0,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "pinion_1",
+  "pinion_2",
+  "pinion_3",
+  "pinion_4"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "in-place + search",
+   "parts": [
+    "body"
+   ],
+   "occurrences": [
+    "body"
+   ],
+   "faces": {
+    "body": [
+     4,
+     9
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 1,
+     "target": "body",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 2,
+     "target": "body",
+     "target_face": 9,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "revolute",
+   "behaviour": "coincident, can turn",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -50.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     30.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "in_place": {
+    "fit": "exact",
+    "clearance": 0.0,
+    "joint": "revolute"
+   },
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "in-place + search",
+   "parts": [
+    "body"
+   ],
+   "occurrences": [
+    "body"
+   ],
+   "faces": {
+    "body": [
+     5,
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 1,
+     "target": "body",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 2,
+     "target": "body",
+     "target_face": 10,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "revolute",
+   "behaviour": "coincident, can turn",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     -50.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     30.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "in_place": {
+    "fit": "exact",
+    "clearance": 0.0,
+    "joint": "revolute"
+   },
+   "id": 2,
+   "group": 1
+  },
+  {
+   "found_by": "in-place + search",
+   "parts": [
+    "body"
+   ],
+   "occurrences": [
+    "body"
+   ],
+   "faces": {
+    "body": [
+     6,
+     11
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 1,
+     "target": "body",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 2,
+     "target": "body",
+     "target_face": 11,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "revolute",
+   "behaviour": "coincident, can turn",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     50.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     30.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "in_place": {
+    "fit": "exact",
+    "clearance": 0.0,
+    "joint": "revolute"
+   },
+   "id": 3,
+   "group": 1
+  },
+  {
+   "found_by": "in-place + search",
+   "parts": [
+    "body"
+   ],
+   "occurrences": [
+    "body"
+   ],
+   "faces": {
+    "body": [
+     7,
+     12
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 1,
+     "target": "body",
+     "target_face": 7,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 2,
+     "target": "body",
+     "target_face": 12,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "revolute",
+   "behaviour": "coincident, can turn",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     50.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     30.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "in_place": {
+    "fit": "exact",
+    "clearance": 0.0,
+    "joint": "revolute"
+   },
+   "id": 4,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "body"
+   ],
+   "occurrences": [
+    "body"
+   ],
+   "positions": 4,
+   "match_ids": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "revolute"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.9
+}

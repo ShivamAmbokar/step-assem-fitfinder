@@ -1,0 +1,199 @@
+{
+ "part": "tests_stress/S6_long_bed/part.step",
+ "assembly": "tests_stress/S6_long_bed/assembly.step",
+ "selected_faces": [
+  4,
+  3,
+  5
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "key"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "bed"
+   ],
+   "occurrences": [
+    "bed"
+   ],
+   "faces": {
+    "bed": [
+     7,
+     10,
+     15
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bed",
+     "target_face": 7,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 3,
+     "target": "bed",
+     "target_face": 10,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 5,
+     "target": "bed",
+     "target_face": 15,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     -0.9962,
+     -0.0872,
+     0.0
+    ]
+   ],
+   "engaged_length_mm": 21.39,
+   "transform": [
+    [
+     -0.996195,
+     0.087156,
+     0.0,
+     617.640713
+    ],
+    [
+     -0.087156,
+     -0.996195,
+     0.0,
+     54.036561
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     76.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bed"
+   ],
+   "occurrences": [
+    "bed"
+   ],
+   "faces": {
+    "bed": [
+     11,
+     13,
+     16
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bed",
+     "target_face": 11,
+     "overlap": 0.667
+    },
+    {
+     "selected_face": 3,
+     "target": "bed",
+     "target_face": 13,
+     "overlap": 0.667
+    },
+    {
+     "selected_face": 5,
+     "target": "bed",
+     "target_face": 16,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     -0.9962,
+     -0.0872,
+     0.0
+    ]
+   ],
+   "engaged_length_mm": 22.92,
+   "transform": [
+    [
+     -0.996195,
+     0.087156,
+     0.0,
+     -296.796614
+    ],
+    [
+     -0.087156,
+     -0.996195,
+     0.0,
+     -5.889942
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     76.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.788,
+   "id": 2,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "bed"
+   ],
+   "occurrences": [
+    "bed"
+   ],
+   "positions": 2,
+   "match_ids": [
+    1,
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 1.0
+}

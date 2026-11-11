@@ -1,0 +1,194 @@
+{
+ "part": "tests_stress/S3_split_bore/part.step",
+ "assembly": "tests_stress/S3_split_bore/assembly.step",
+ "selected_faces": [
+  4
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "pin"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "plate_split"
+   ],
+   "occurrences": [
+    "plate_split"
+   ],
+   "faces": {
+    "plate_split": [
+     7,
+     8
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate_split",
+     "target_face": 7,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 4,
+     "target": "plate_split",
+     "target_face": 8,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -19.166667
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "plate_whole"
+   ],
+   "occurrences": [
+    "plate_whole"
+   ],
+   "faces": {
+    "plate_whole": [
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate_whole",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     80.0
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0,
+     19.166667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 2
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "plate_split"
+   ],
+   "occurrences": [
+    "plate_split"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "plate_whole"
+   ],
+   "occurrences": [
+    "plate_whole"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.4
+}

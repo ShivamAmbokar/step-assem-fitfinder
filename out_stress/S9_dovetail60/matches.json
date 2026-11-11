@@ -1,0 +1,217 @@
+{
+ "part": "tests_stress/S9_dovetail60/part.step",
+ "assembly": "tests_stress/S9_dovetail60/assembly.step",
+ "selected_faces": [
+  5,
+  7,
+  6
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "block"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "rail_1"
+   ],
+   "occurrences": [
+    "rail_1"
+   ],
+   "faces": {
+    "rail_1": [
+     8,
+     9,
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 5,
+     "target": "rail_1",
+     "target_face": 8,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "rail_1",
+     "target_face": 9,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 6,
+     "target": "rail_1",
+     "target_face": 10,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "engaged_length_mm": 188.68,
+   "transform": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     60.486111
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "rail_2"
+   ],
+   "occurrences": [
+    "rail_2"
+   ],
+   "faces": {
+    "rail_2": [
+     8,
+     9,
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 5,
+     "target": "rail_2",
+     "target_face": 8,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "rail_2",
+     "target_face": 9,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 6,
+     "target": "rail_2",
+     "target_face": 10,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.3256,
+     0.793,
+     0.515
+    ]
+   ],
+   "engaged_length_mm": 188.68,
+   "transform": [
+    [
+     -0.325568,
+     0.945519,
+     0.0,
+     19.692352
+    ],
+    [
+     -0.792979,
+     -0.273044,
+     -0.544639,
+     247.964192
+    ],
+    [
+     -0.514966,
+     -0.177317,
+     0.838671,
+     81.14831
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 2
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "rail_1"
+   ],
+   "occurrences": [
+    "rail_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "rail_2"
+   ],
+   "occurrences": [
+    "rail_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.6
+}

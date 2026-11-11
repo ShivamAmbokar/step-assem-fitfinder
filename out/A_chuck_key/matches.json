@@ -1,0 +1,451 @@
+{
+ "part": "tests_out/A_chuck_key/part.step",
+ "assembly": "tests_out/A_chuck_key/assembly.step",
+ "selected_faces": [
+  9,
+  7,
+  10,
+  8
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "key"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "pinion_1"
+   ],
+   "faces": {
+    "pinion_1": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "pinion_1",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "pinion_1",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "pinion_1",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "pinion_1",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     50.0
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.104167
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "pinion_2"
+   ],
+   "faces": {
+    "pinion_2": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "pinion_2",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "pinion_2",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "pinion_2",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "pinion_2",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     1.0,
+     0.0,
+     50.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.104167
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 2
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "pinion_3"
+   ],
+   "faces": {
+    "pinion_3": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "pinion_3",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "pinion_3",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "pinion_3",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "pinion_3",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     -50.0
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.104167
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 3,
+   "group": 3
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_4"
+   ],
+   "occurrences": [
+    "pinion_4"
+   ],
+   "faces": {
+    "pinion_4": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "pinion_4",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "pinion_4",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "pinion_4",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "pinion_4",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     -1.0,
+     -0.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0,
+     -50.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.104167
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 4,
+   "group": 4
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "pinion_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "pinion_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 3,
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "pinion_3"
+   ],
+   "positions": 1,
+   "match_ids": [
+    3
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 4,
+   "parts": [
+    "pinion_4"
+   ],
+   "occurrences": [
+    "pinion_4"
+   ],
+   "positions": 1,
+   "match_ids": [
+    4
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "pinion_wide",
+   "occurrence": "pinion_wide",
+   "faces": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "reason": "too loose",
+   "value": 2.0
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 1.1
+}

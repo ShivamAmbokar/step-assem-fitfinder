@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+tests_out/
+out/*/match_*.png
+tests_stress/

@@ -1,0 +1,37 @@
+{
+ "part": "tests_out/E_clutter/part.step",
+ "assembly": "tests_out/E_clutter/assembly.step",
+ "selected_faces": [
+  9,
+  7,
+  10,
+  8
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "key"
+ ],
+ "status": "NO_FIT",
+ "matches": [],
+ "groups": [],
+ "near_misses": [
+  {
+   "part": "block_rect",
+   "occurrence": "block_rect",
+   "faces": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "reason": "too loose",
+   "value": 2.0
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.1
+}

@@ -1,0 +1,4 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,plate_split,plate_split,7,4,1.0,exact,0.0,cylindrical,search
+1,plate_split,plate_split,8,4,1.0,exact,0.0,cylindrical,search
+2,plate_whole,plate_whole,7,4,1.0,exact,0.0,cylindrical,search

@@ -1,0 +1,7 @@
+3 part(s) / 3 position(s) fit the selected faces [4]  (0.5 s)
+  [1] bush_nurbs: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #1: faces [4]  [search]
+  [2] bush_nurbs_loose: clearance (clearance 0.6 mm), cylindrical -> sliding fit
+        match #2: faces [4]  [search]
+  [3] bush_plain: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #3: faces [4]  [search]

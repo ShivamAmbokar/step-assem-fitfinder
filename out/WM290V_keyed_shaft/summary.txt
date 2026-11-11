@@ -1,0 +1,6 @@
+0 part(s) / 0 position(s) fit the selected faces [984, 992, 2226, 2228]  (5.9 s)
+  near-miss Main Body.1: too small (-2.000 mm)
+  warning MERGED_FACES: some selected faces are pieces of one surface (e.g. a cylinder stored as two halves) and are treated as one face
+  warning SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1
+  warning SURFACE_MODEL: the selected part is not a closed solid, so collisions cannot be checked
+  warning EMPTY_PART: 6 entries in the file have no faces and are ignored

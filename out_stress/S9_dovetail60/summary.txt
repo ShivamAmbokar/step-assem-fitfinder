@@ -1,0 +1,5 @@
+2 part(s) / 2 position(s) fit the selected faces [5, 7, 6]  (0.6 s)
+  [1] rail_1: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #1: faces [8, 9, 10]  [search]
+  [2] rail_2: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #2: faces [8, 9, 10]  [search]

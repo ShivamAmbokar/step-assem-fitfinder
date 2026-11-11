@@ -1,0 +1,9 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,body,body,4,1,1.0,exact,0.0,revolute,in-place + search
+1,body,body,9,2,1.0,exact,0.0,revolute,in-place + search
+2,body,body,5,1,1.0,exact,0.0,revolute,in-place + search
+2,body,body,10,2,1.0,exact,0.0,revolute,in-place + search
+3,body,body,6,1,1.0,exact,0.0,revolute,in-place + search
+3,body,body,11,2,1.0,exact,0.0,revolute,in-place + search
+4,body,body,7,1,1.0,exact,0.0,revolute,in-place + search
+4,body,body,12,2,1.0,exact,0.0,revolute,in-place + search

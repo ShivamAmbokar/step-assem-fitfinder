@@ -1,0 +1,13 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,pinion_1,pinion_1,7,9,1.0,exact,0.0,prismatic,search
+1,pinion_1,pinion_1,10,7,1.0,exact,0.0,prismatic,search
+1,pinion_1,pinion_1,9,10,1.0,exact,0.0,prismatic,search
+1,pinion_1,pinion_1,8,8,1.0,exact,0.0,prismatic,search
+2,pinion_2,pinion_2,7,9,1.0,exact,0.0,prismatic,search
+2,pinion_2,pinion_2,10,7,1.0,exact,0.0,prismatic,search
+2,pinion_2,pinion_2,9,10,1.0,exact,0.0,prismatic,search
+2,pinion_2,pinion_2,8,8,1.0,exact,0.0,prismatic,search
+3,pinion_3,pinion_3,7,9,1.0,exact,0.0,prismatic,search
+3,pinion_3,pinion_3,10,7,1.0,exact,0.0,prismatic,search
+3,pinion_3,pinion_3,9,10,1.0,exact,0.0,prismatic,search
+3,pinion_3,pinion_3,8,8,1.0,exact,0.0,prismatic,search

@@ -1,0 +1,13 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,Pinion M1.8 10T.1,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.1,4,2,0.972,clearance,0.4,prismatic,in-place + search
+1,Pinion M1.8 10T.1,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.1,6,4,0.972,clearance,0.4,prismatic,in-place + search
+1,Pinion M1.8 10T.1,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.1,8,16,0.972,clearance,0.4,prismatic,in-place + search
+1,Pinion M1.8 10T.1,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.1,12,18,0.972,clearance,0.4,prismatic,in-place + search
+2,Pinion M1.8 10T.2,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.2,4,2,0.972,clearance,0.4,prismatic,search
+2,Pinion M1.8 10T.2,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.2,6,4,0.972,clearance,0.4,prismatic,search
+2,Pinion M1.8 10T.2,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.2,8,16,0.972,clearance,0.4,prismatic,search
+2,Pinion M1.8 10T.2,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.2,12,18,0.972,clearance,0.4,prismatic,search
+3,Pinion M1.8 10T.3,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.3,4,2,0.972,clearance,0.4,prismatic,search
+3,Pinion M1.8 10T.3,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.3,6,4,0.972,clearance,0.4,prismatic,search
+3,Pinion M1.8 10T.3,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.3,8,16,0.972,clearance,0.4,prismatic,search
+3,Pinion M1.8 10T.3,TOS Svitavy 125.1/Assem1.1/Pinion M1.8 10T.3,12,18,0.972,clearance,0.4,prismatic,search

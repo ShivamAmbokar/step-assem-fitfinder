@@ -1,0 +1,531 @@
+{
+ "part": "data_local/hex.step",
+ "assembly": "data_local/WM290V.stp",
+ "selected_faces": [
+  241,
+  249,
+  57
+ ],
+ "selection_dof": {
+  "translations": 0,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "TOS Svitavy 125.1/Assem1.1/Hex M8x25.1",
+  "TOS Svitavy 125.1/Assem1.1/Hex M8x25.2",
+  "TOS Svitavy 125.1/Assem1.1/Hex M8x25.3"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "01. Test00-01.1"
+   ],
+   "occurrences": [
+    "01. Test00-01.1/=>[0:1:1:3]"
+   ],
+   "faces": {
+    "01. Test00-01.1/=>[0:1:1:3]": [
+     2,
+     28,
+     29
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 28,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 29,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 57,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 2,
+     "overlap": 0.805
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.376,
+   "joint": "revolute",
+   "behaviour": "running fit",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     160.0
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0,
+     -80.15
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0,
+     -20.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.928,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "01. Test00-01.1"
+   ],
+   "occurrences": [
+    "01. Test00-01.1/=>[0:1:1:3]"
+   ],
+   "faces": {
+    "01. Test00-01.1/=>[0:1:1:3]": [
+     7,
+     28,
+     29
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 28,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 29,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 57,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 7,
+     "overlap": 0.805
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.376,
+   "joint": "revolute",
+   "behaviour": "running fit",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     160.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -59.85
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0,
+     -20.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.928,
+   "id": 2,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "01. Test00-01.1"
+   ],
+   "occurrences": [
+    "01. Test00-01.1/=>[0:1:1:3]"
+   ],
+   "faces": {
+    "01. Test00-01.1/=>[0:1:1:3]": [
+     2,
+     30,
+     31
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 30,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 31,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 57,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 2,
+     "overlap": 0.805
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.376,
+   "joint": "revolute",
+   "behaviour": "running fit",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     20.0
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0,
+     -80.15
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0,
+     -20.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.928,
+   "id": 3,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "01. Test00-01.1"
+   ],
+   "occurrences": [
+    "01. Test00-01.1/=>[0:1:1:3]"
+   ],
+   "faces": {
+    "01. Test00-01.1/=>[0:1:1:3]": [
+     7,
+     30,
+     31
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 30,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 241,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 31,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 57,
+     "target": "01. Test00-01.1/=>[0:1:1:3]",
+     "target_face": 7,
+     "overlap": 0.805
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.376,
+   "joint": "revolute",
+   "behaviour": "running fit",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -59.85
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0,
+     -20.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.928,
+   "id": 4,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "01. Test00-01.1"
+   ],
+   "occurrences": [
+    "01. Test00-01.1/=>[0:1:1:3]"
+   ],
+   "positions": 4,
+   "match_ids": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "fits": [
+    "clearance"
+   ],
+   "joints": [
+    "revolute"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "01. Test00-02.1",
+   "occurrence": "01. Test00-02.1",
+   "faces": [
+    24,
+    33
+   ],
+   "reason": "too small",
+   "value": -2.0
+  },
+  {
+   "part": "01. Test00-12.1",
+   "occurrence": "01. Test00-12.1/=>[0:1:1:52]",
+   "faces": [
+    17,
+    33
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-12.2",
+   "occurrence": "01. Test00-12.2/=>[0:1:1:52]",
+   "faces": [
+    17,
+    33
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-13.1",
+   "occurrence": "01. Test00-13.1/=>[0:1:1:54]",
+   "faces": [
+    1,
+    3
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-13.2",
+   "occurrence": "01. Test00-13.2/=>[0:1:1:54]",
+   "faces": [
+    1,
+    3
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-08.1",
+   "occurrence": "01. Test01.1/01. Test00-08.1",
+   "faces": [
+    1,
+    2
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-09.1",
+   "occurrence": "01. Test01.1/01. Test00-09.1",
+   "faces": [
+    1,
+    2
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-M90S B34(ok).1",
+   "occurrence": "Product2.1/01. Test00-M90S B34(ok).1/=>[0:1:1:13]",
+   "faces": [
+    977,
+    1106
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-1210 TL 20 PILOT BORE.1",
+   "occurrence": "Product2.1/Product3.1/01. Test00-1210 TL 20 PILOT BORE.1",
+   "faces": [
+    6,
+    14
+   ],
+   "reason": "collides with 01. Test00-1210 TL 20 PILOT BORE.1",
+   "value": null
+  },
+  {
+   "part": "Adapter Plate.1",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Adapter Plate.1",
+   "faces": [
+    1,
+    6
+   ],
+   "reason": "too small",
+   "value": -1.353
+  },
+  {
+   "part": "Cover.1",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Cover.1",
+   "faces": [
+    2,
+    3
+   ],
+   "reason": "too loose",
+   "value": 2.5
+  },
+  {
+   "part": "Main Body.1",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+   "faces": [
+    344,
+    510
+   ],
+   "reason": "too small",
+   "value": -1.2
+  },
+  {
+   "part": "Spring Washer DIN 7980 M8.1",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Spring Washer DIN 7980 M8.1",
+   "faces": [
+    1,
+    8
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "Spring Washer DIN 7980 M8.2",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Spring Washer DIN 7980 M8.2",
+   "faces": [
+    1,
+    8
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "Spring Washer DIN 7980 M8.3",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Spring Washer DIN 7980 M8.3",
+   "faces": [
+    1,
+    8
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "Spring Washer DIN 7980 M8.4",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Spring Washer DIN 7980 M8.4",
+   "faces": [
+    1,
+    8
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "Spring Washer DIN 7980 M8.5",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Spring Washer DIN 7980 M8.5",
+   "faces": [
+    1,
+    8
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "Spring Washer DIN 7980 M8.6",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Spring Washer DIN 7980 M8.6",
+   "faces": [
+    1,
+    8
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  }
+ ],
+ "partial_in_place": [
+  {
+   "source": "TOS Svitavy 125.1/Assem1.1/Hex M8x25.1",
+   "coverage": "1/2"
+  },
+  {
+   "source": "TOS Svitavy 125.1/Assem1.1/Hex M8x25.2",
+   "coverage": "1/2"
+  },
+  {
+   "source": "TOS Svitavy 125.1/Assem1.1/Hex M8x25.3",
+   "coverage": "1/2"
+  }
+ ],
+ "warnings": [
+  "MERGED_FACES: some selected faces are pieces of one surface (e.g. a cylinder stored as two halves) and are treated as one face",
+  "SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1",
+  "EMPTY_PART: 6 entries in the file have no faces and are ignored"
+ ],
+ "seconds": 8.2
+}

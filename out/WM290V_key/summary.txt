@@ -1,0 +1,12 @@
+3 part(s) / 3 position(s) fit the selected faces [2, 4, 16, 18]  (17.1 s)
+  [1] Pinion M1.8 10T.1: clearance (clearance 0.4 mm), prismatic -> sliding fit
+        match #1: faces [4, 6, 8, 12]  [in-place + search]
+  [2] Pinion M1.8 10T.2: clearance (clearance 0.4 mm), prismatic -> sliding fit
+        match #2: faces [4, 6, 8, 12]  [search]
+  [3] Pinion M1.8 10T.3: clearance (clearance 0.4 mm), prismatic -> sliding fit
+        match #3: faces [4, 6, 8, 12]  [search]
+  near-miss 01. Test00-06.1: too small (-1.800 mm)
+  near-miss 01. Test00-M90S B34(ok).1: too small (-0.800 mm)
+  near-miss Main Body.1: too small (-1.600 mm)
+  warning SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1
+  warning EMPTY_PART: 6 entries in the file have no faces and are ignored

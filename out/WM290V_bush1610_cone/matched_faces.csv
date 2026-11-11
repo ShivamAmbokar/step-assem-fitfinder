@@ -1,0 +1,2 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,=>[0:1:1:9].solid1,Product1.1/01. Test00-180 x 1 SPZ Type 1 1610 TL.1/=>[0:1:1:9].solid1,3,5,1.0,exact,0.0,revolute,in-place

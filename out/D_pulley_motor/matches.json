@@ -1,0 +1,202 @@
+{
+ "part": "tests_out/D_pulley_motor/part.step",
+ "assembly": "tests_out/D_pulley_motor/assembly.step",
+ "selected_faces": [
+  5,
+  4
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "pulley"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "motor_1"
+   ],
+   "occurrences": [
+    "motor_1"
+   ],
+   "faces": {
+    "motor_1": [
+     7,
+     8
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 5,
+     "target": "motor_1",
+     "target_face": 8,
+     "overlap": 0.833
+    },
+    {
+     "selected_face": 4,
+     "target": "motor_1",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.05,
+   "joint": "prismatic",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 21.85,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -0.025
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.319444
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.858,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "motor_2"
+   ],
+   "occurrences": [
+    "motor_2"
+   ],
+   "faces": {
+    "motor_2": [
+     7,
+     8
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 5,
+     "target": "motor_2",
+     "target_face": 8,
+     "overlap": 0.833
+    },
+    {
+     "selected_face": 4,
+     "target": "motor_2",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.05,
+   "joint": "prismatic",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   ],
+   "engaged_length_mm": 21.85,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     150.0
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0,
+     -0.319444
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -0.025
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.858,
+   "id": 2,
+   "group": 2
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "motor_1"
+   ],
+   "occurrences": [
+    "motor_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "clearance"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "motor_2"
+   ],
+   "occurrences": [
+    "motor_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "clearance"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.8
+}

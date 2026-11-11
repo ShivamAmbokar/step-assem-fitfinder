@@ -1,0 +1,4 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,cup_1,cup_1,7,1,1.0,exact,0.0,spherical,search
+2,cup_2,cup_2,7,1,1.0,exact,0.0,spherical,search
+3,cup_loose,cup_loose,7,1,1.0,clearance,0.2,spherical,search

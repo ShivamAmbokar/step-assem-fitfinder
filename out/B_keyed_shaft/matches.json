@@ -1,0 +1,245 @@
+{
+ "part": "tests_out/B_keyed_shaft/part.step",
+ "assembly": "tests_out/B_keyed_shaft/assembly.step",
+ "selected_faces": [
+  1,
+  3,
+  6,
+  5
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "shaft"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "hub_1"
+   ],
+   "occurrences": [
+    "hub_1"
+   ],
+   "faces": {
+    "hub_1": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 1,
+     "target": "hub_1",
+     "target_face": 7,
+     "overlap": 0.75
+    },
+    {
+     "selected_face": 3,
+     "target": "hub_1",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 6,
+     "target": "hub_1",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 5,
+     "target": "hub_1",
+     "target_face": 5,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   ],
+   "engaged_length_mm": 94.34,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     200.0
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0,
+     69.756944
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.799,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "hub_2"
+   ],
+   "occurrences": [
+    "hub_2"
+   ],
+   "faces": {
+    "hub_2": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 1,
+     "target": "hub_2",
+     "target_face": 7,
+     "overlap": 0.75
+    },
+    {
+     "selected_face": 3,
+     "target": "hub_2",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 6,
+     "target": "hub_2",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 5,
+     "target": "hub_2",
+     "target_face": 5,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.171,
+     0.4698,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 94.34,
+   "transform": [
+    [
+     0.296198,
+     -0.939693,
+     0.17101,
+     -211.92914
+    ],
+    [
+     0.813798,
+     0.34202,
+     0.469846,
+     17.224957
+    ],
+    [
+     -0.5,
+     0.0,
+     0.866025,
+     -60.411286
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.799,
+   "id": 2,
+   "group": 2
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "hub_1"
+   ],
+   "occurrences": [
+    "hub_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "hub_2"
+   ],
+   "occurrences": [
+    "hub_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "hub_wide",
+   "occurrence": "hub_wide",
+   "faces": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "reason": "too loose",
+   "value": 2.0
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 1.3
+}

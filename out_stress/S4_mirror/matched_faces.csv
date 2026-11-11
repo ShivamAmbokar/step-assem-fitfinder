@@ -1,0 +1,11 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,holder_1,holder_1,5,9,1.0,exact,0.0,fixed,search
+1,holder_1,holder_1,7,7,1.0,exact,0.0,fixed,search
+1,holder_1,holder_1,6,10,1.0,exact,0.0,fixed,search
+1,holder_1,holder_1,4,8,1.0,exact,0.0,fixed,search
+1,holder_1,holder_1,8,11,1.0,exact,0.0,fixed,search
+2,holder_2,holder_2,5,9,1.0,exact,0.0,fixed,search
+2,holder_2,holder_2,7,7,1.0,exact,0.0,fixed,search
+2,holder_2,holder_2,6,10,1.0,exact,0.0,fixed,search
+2,holder_2,holder_2,4,8,1.0,exact,0.0,fixed,search
+2,holder_2,holder_2,8,11,1.0,exact,0.0,fixed,search

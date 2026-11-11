@@ -1,0 +1,129 @@
+{
+ "part": "data_local/bush.step",
+ "assembly": "data_local/WM290V.stp",
+ "selected_faces": [
+  3,
+  8
+ ],
+ "selection_dof": {
+  "translations": 0,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "Product2.1/Product3.1/01. Test00-1210 TL 20 PILOT BORE.1"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "in-place",
+   "parts": [
+    "01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1"
+   ],
+   "occurrences": [
+    "Product2.1/Product3.1/01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1"
+   ],
+   "faces": {
+    "Product2.1/Product3.1/01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1": [
+     1,
+     3
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 3,
+     "target": "Product2.1/Product3.1/01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1",
+     "target_face": 1,
+     "overlap": 0.5
+    },
+    {
+     "selected_face": 3,
+     "target": "Product2.1/Product3.1/01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1",
+     "target_face": 3,
+     "overlap": 0.5
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "revolute",
+   "behaviour": "coincident, can turn",
+   "free_directions": [],
+   "transform": [
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     255.4
+    ],
+    [
+     1.0,
+     -0.0,
+     -0.0,
+     -228.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -218.796709
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "source": "Product2.1/Product3.1/01. Test00-1210 TL 20 PILOT BORE.1",
+   "id": 1,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1"
+   ],
+   "occurrences": [
+    "Product2.1/Product3.1/01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "revolute"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "01. Test00-180 x 1 SPZ Type 1 1610 TL.1.solid1",
+   "occurrence": "Product1.1/01. Test00-180 x 1 SPZ Type 1 1610 TL.1/=>[0:1:1:9].solid1",
+   "faces": [
+    1
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-M90S B34(ok).1",
+   "occurrence": "Product2.1/01. Test00-M90S B34(ok).1/=>[0:1:1:13]",
+   "faces": [
+    931
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [
+  "MERGED_FACES: some selected faces are pieces of one surface (e.g. a cylinder stored as two halves) and are treated as one face",
+  "SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1",
+  "EMPTY_PART: 6 entries in the file have no faces and are ignored"
+ ],
+ "seconds": 6.6
+}

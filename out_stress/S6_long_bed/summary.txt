@@ -1,0 +1,4 @@
+1 part(s) / 2 position(s) fit the selected faces [4, 3, 5]  (1.0 s)
+  [1] bed: exact (clearance 0.0 mm), prismatic -> coincident, can slide  - 2 positions
+        match #1: faces [7, 10, 15]  [search]
+        match #2: faces [11, 13, 16]  [search]

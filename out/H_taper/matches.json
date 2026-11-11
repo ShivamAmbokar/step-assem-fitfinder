@@ -1,0 +1,175 @@
+{
+ "part": "tests_out/H_taper/part.step",
+ "assembly": "tests_out/H_taper/assembly.step",
+ "selected_faces": [
+  4
+ ],
+ "selection_dof": {
+  "translations": 0,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "shank"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "sleeve_1"
+   ],
+   "occurrences": [
+    "sleeve_1"
+   ],
+   "faces": {
+    "sleeve_1": [
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "sleeve_1",
+     "target_face": 7,
+     "overlap": 0.917
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "revolute",
+   "behaviour": "coincident, can turn",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.917,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "sleeve_2"
+   ],
+   "occurrences": [
+    "sleeve_2"
+   ],
+   "faces": {
+    "sleeve_2": [
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "sleeve_2",
+     "target_face": 7,
+     "overlap": 0.917
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "revolute",
+   "behaviour": "coincident, can turn",
+   "free_directions": [],
+   "engaged_length_mm": 0.0,
+   "transform": [
+    [
+     0.984808,
+     -0.173648,
+     0.0,
+     80.0
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0,
+     -11.0
+    ],
+    [
+     0.173648,
+     0.984808,
+     0.0,
+     15.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.917,
+   "id": 2,
+   "group": 2
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "sleeve_1"
+   ],
+   "occurrences": [
+    "sleeve_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "revolute"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "sleeve_2"
+   ],
+   "occurrences": [
+    "sleeve_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "revolute"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.2
+}

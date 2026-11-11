@@ -1,0 +1,5 @@
+2 part(s) / 2 position(s) fit the selected faces [4]  (0.4 s)
+  [1] plate_split: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #1: faces [7, 8]  [search]
+  [2] plate_whole: exact (clearance 0.0 mm), cylindrical -> coincident, can slide and turn
+        match #2: faces [7]  [search]

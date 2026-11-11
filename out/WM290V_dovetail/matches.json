@@ -1,0 +1,158 @@
+{
+ "part": "data_local/t05.step",
+ "assembly": "data_local/WM290V.stp",
+ "selected_faces": [
+  5,
+  13,
+  14
+ ],
+ "max_clearance_mm": 3.0,
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "01. Test00-05.1"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "in-place",
+   "parts": [
+    "01. Test00-06.1"
+   ],
+   "occurrences": [
+    "01. Test00-06.1"
+   ],
+   "faces": {
+    "01. Test00-06.1": [
+     46,
+     50,
+     54
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 5,
+     "target": "01. Test00-06.1",
+     "target_face": 54,
+     "overlap": 0.688
+    },
+    {
+     "selected_face": 13,
+     "target": "01. Test00-06.1",
+     "target_face": 46,
+     "overlap": 0.84
+    },
+    {
+     "selected_face": 14,
+     "target": "01. Test00-06.1",
+     "target_face": 50,
+     "overlap": 0.917
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 2.819,
+   "joint": "prismatic",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   ],
+   "transform": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     -211.199957
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -1.393095
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -136.513403
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "source": "01. Test00-05.1",
+   "id": 1,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "01. Test00-06.1"
+   ],
+   "occurrences": [
+    "01. Test00-06.1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "clearance"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "01. Test00-01.1",
+   "occurrence": "01. Test00-01.1/=>[0:1:1:3]",
+   "faces": [
+    2,
+    10,
+    19
+   ],
+   "reason": "position residual",
+   "value": null
+  },
+  {
+   "part": "01. Test00-02.1",
+   "occurrence": "01. Test00-02.1",
+   "faces": [
+    32,
+    44,
+    57
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "01. Test00-M90S B34(ok).1",
+   "occurrence": "Product2.1/01. Test00-M90S B34(ok).1/=>[0:1:1:13]",
+   "faces": [
+    65,
+    861,
+    887
+   ],
+   "reason": "angles",
+   "value": null
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [
+  "SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1",
+  "EMPTY_PART: 6 entries in the file have no faces and are ignored"
+ ],
+ "seconds": 8.6
+}

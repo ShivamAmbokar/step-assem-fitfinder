@@ -1,0 +1,7 @@
+3 part(s) / 3 position(s) fit the selected faces [1]  (0.3 s)
+  [1] cup_1: exact (clearance 0.0 mm), spherical -> coincident, can swivel
+        match #1: faces [7]  [search]
+  [2] cup_2: exact (clearance 0.0 mm), spherical -> coincident, can swivel
+        match #2: faces [7]  [search]
+  [3] cup_loose: clearance (clearance 0.2 mm), spherical -> running fit
+        match #3: faces [7]  [search]

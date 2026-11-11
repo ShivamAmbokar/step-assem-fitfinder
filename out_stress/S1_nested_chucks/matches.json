@@ -1,0 +1,850 @@
+{
+ "part": "tests_stress/S1_nested_chucks/part.step",
+ "assembly": "tests_stress/S1_nested_chucks/assembly.step",
+ "selected_faces": [
+  9,
+  7,
+  10,
+  8
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "key"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_1"
+   ],
+   "faces": {
+    "headstock/chuck_A/pinion_1": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_A/pinion_1",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_A/pinion_1",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_A/pinion_1",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_A/pinion_1",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     -0.5,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     0.34202,
+     0.939693,
+     0.0,
+     96.984631
+    ],
+    [
+     -0.813798,
+     0.296198,
+     -0.5,
+     -87.742177
+    ],
+    [
+     -0.469846,
+     0.17101,
+     0.866025,
+     67.611858
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_1"
+   ],
+   "faces": {
+    "headstock/chuck_B/pinion_1": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_B/pinion_1",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_B/pinion_1",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_B/pinion_1",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_B/pinion_1",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.9397,
+     0.2962,
+     0.171
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     0.34202,
+     0.0,
+     0.939693,
+     374.291839
+    ],
+    [
+     -0.813798,
+     0.5,
+     0.296198,
+     47.21921
+    ],
+    [
+     -0.469846,
+     -0.866025,
+     0.17101,
+     35.715018
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 2
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_2"
+   ],
+   "faces": {
+    "headstock/chuck_A/pinion_2": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_A/pinion_2",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_A/pinion_2",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_A/pinion_2",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_A/pinion_2",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     -0.5,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     0.939693,
+     -0.34202,
+     0.0,
+     32.898993
+    ],
+    [
+     0.296198,
+     0.813798,
+     -0.5,
+     -61.862199
+    ],
+    [
+     0.17101,
+     0.469846,
+     0.866025,
+     82.55367
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 3,
+   "group": 3
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_2"
+   ],
+   "faces": {
+    "headstock/chuck_B/pinion_2": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_B/pinion_2",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_B/pinion_2",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_B/pinion_2",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_B/pinion_2",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.9397,
+     0.2962,
+     0.171
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     0.0,
+     -0.34202,
+     0.939693,
+     357.190832
+    ],
+    [
+     0.5,
+     0.813798,
+     0.296198,
+     62.909094
+    ],
+    [
+     -0.866025,
+     0.469846,
+     0.17101,
+     102.508604
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 4,
+   "group": 4
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_3"
+   ],
+   "faces": {
+    "headstock/chuck_A/pinion_3": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_A/pinion_3",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_A/pinion_3",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_A/pinion_3",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_A/pinion_3",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     -0.5,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     -0.34202,
+     -0.939693,
+     0.0,
+     3.015369
+    ],
+    [
+     0.813798,
+     -0.296198,
+     -0.5,
+     -117.36199
+    ],
+    [
+     0.469846,
+     -0.17101,
+     0.866025,
+     50.510851
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 5,
+   "group": 5
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_3"
+   ],
+   "faces": {
+    "headstock/chuck_B/pinion_3": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_B/pinion_3",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_B/pinion_3",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_B/pinion_3",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_B/pinion_3",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.9397,
+     0.2962,
+     0.171
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     -0.34202,
+     -0.0,
+     0.939693,
+     374.291839
+    ],
+    [
+     0.813798,
+     -0.5,
+     0.296198,
+     -2.78079
+    ],
+    [
+     0.469846,
+     0.866025,
+     0.17101,
+     122.317558
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 6,
+   "group": 6
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_4"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_4"
+   ],
+   "faces": {
+    "headstock/chuck_A/pinion_4": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_A/pinion_4",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_A/pinion_4",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_A/pinion_4",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_A/pinion_4",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     -0.5,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     -0.939693,
+     0.34202,
+     0.0,
+     67.101007
+    ],
+    [
+     -0.296198,
+     -0.813798,
+     -0.5,
+     -143.241967
+    ],
+    [
+     -0.17101,
+     -0.469846,
+     0.866025,
+     35.569039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 7,
+   "group": 7
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_4"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_4"
+   ],
+   "faces": {
+    "headstock/chuck_B/pinion_4": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "headstock/chuck_B/pinion_4",
+     "target_face": 4,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "headstock/chuck_B/pinion_4",
+     "target_face": 6,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "headstock/chuck_B/pinion_4",
+     "target_face": 5,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "headstock/chuck_B/pinion_4",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.9397,
+     0.2962,
+     0.171
+    ]
+   ],
+   "engaged_length_mm": 37.81,
+   "transform": [
+    [
+     -0.0,
+     0.34202,
+     0.939693,
+     391.392846
+    ],
+    [
+     -0.5,
+     -0.813798,
+     0.296198,
+     -18.470674
+    ],
+    [
+     0.866025,
+     -0.469846,
+     0.17101,
+     55.523973
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 8,
+   "group": 8
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 3,
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    3
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 4,
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    4
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 5,
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_3"
+   ],
+   "positions": 1,
+   "match_ids": [
+    5
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 6,
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_3"
+   ],
+   "positions": 1,
+   "match_ids": [
+    6
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 7,
+   "parts": [
+    "pinion_4"
+   ],
+   "occurrences": [
+    "headstock/chuck_A/pinion_4"
+   ],
+   "positions": 1,
+   "match_ids": [
+    7
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 8,
+   "parts": [
+    "pinion_4"
+   ],
+   "occurrences": [
+    "headstock/chuck_B/pinion_4"
+   ],
+   "positions": 1,
+   "match_ids": [
+    8
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 1.9
+}

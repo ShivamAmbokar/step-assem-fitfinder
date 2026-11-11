@@ -1,0 +1,2 @@
+0 part(s) / 0 position(s) fit the selected faces [9, 7, 10, 8]  (0.1 s)
+  near-miss block_rect: too loose (+2.000 mm)

@@ -1,0 +1,9 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,cover,cover,7,4,1.0,clearance,0.5,revolute,search
+1,cover,cover,3,3,0.882,clearance,0.5,revolute,search
+2,cover,cover,8,4,1.0,clearance,0.5,revolute,search
+2,cover,cover,3,3,0.882,clearance,0.5,revolute,search
+3,cover,cover,9,4,1.0,clearance,0.5,revolute,search
+3,cover,cover,3,3,0.882,clearance,0.5,revolute,search
+4,cover,cover,10,4,1.0,clearance,0.5,revolute,in-place + search
+4,cover,cover,3,3,0.882,clearance,0.5,revolute,in-place + search

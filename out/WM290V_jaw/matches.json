@@ -1,0 +1,188 @@
+{
+ "part": "data_local/jaw1.step",
+ "assembly": "data_local/WM290V.stp",
+ "selected_faces": [
+  23,
+  33,
+  24,
+  26
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "TOS Svitavy 125.1/Assem1.1/Jaw 1 Internal.1"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "in-place + search",
+   "parts": [
+    "Main Body.1"
+   ],
+   "occurrences": [
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1"
+   ],
+   "faces": {
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1": [
+     314,
+     405,
+     407,
+     408
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 23,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 407,
+     "overlap": 0.486
+    },
+    {
+     "selected_face": 33,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 405,
+     "overlap": 0.482
+    },
+    {
+     "selected_face": 24,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 408,
+     "overlap": 0.479
+    },
+    {
+     "selected_face": 26,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 314,
+     "overlap": 0.479
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     -0.866,
+     0.5
+    ]
+   ],
+   "engaged_length_mm": 44.52,
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     -89.8
+    ],
+    [
+     0.0,
+     -0.866025,
+     -0.5,
+     -30.435433
+    ],
+    [
+     0.0,
+     0.5,
+     -0.866025,
+     17.571905
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 0.425,
+   "in_place": {
+    "fit": "exact",
+    "clearance": 0.0,
+    "joint": "prismatic"
+   },
+   "id": 1,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "Main Body.1"
+   ],
+   "occurrences": [
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "01. Test00-06.1",
+   "occurrence": "01. Test00-06.1",
+   "faces": [
+    22,
+    23,
+    30,
+    61
+   ],
+   "reason": "too small",
+   "value": -2.0
+  },
+  {
+   "part": "01. Test00-12.1",
+   "occurrence": "01. Test00-12.1/=>[0:1:1:52]",
+   "faces": [
+    18,
+    24,
+    26,
+    35
+   ],
+   "reason": "too loose",
+   "value": 1.25
+  },
+  {
+   "part": "01. Test00-12.2",
+   "occurrence": "01. Test00-12.2/=>[0:1:1:52]",
+   "faces": [
+    18,
+    24,
+    26,
+    35
+   ],
+   "reason": "too loose",
+   "value": 1.25
+  },
+  {
+   "part": "01. Test00-M90S B34(ok).1",
+   "occurrence": "Product2.1/01. Test00-M90S B34(ok).1/=>[0:1:1:13]",
+   "faces": [
+    846,
+    857,
+    883,
+    935,
+    960,
+    969
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [
+  "SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1",
+  "EMPTY_PART: 6 entries in the file have no faces and are ignored"
+ ],
+ "seconds": 35.7
+}

@@ -1,0 +1,386 @@
+{
+ "part": "data_local/pin.step",
+ "assembly": "data_local/WM290V.stp",
+ "selected_faces": [
+  16,
+  17
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "TOS Svitavy 125.1/Assem1.1/Retaining Pin.1",
+  "TOS Svitavy 125.1/Assem1.1/Retaining Pin.2",
+  "TOS Svitavy 125.1/Assem1.1/Retaining Pin.3"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "in-place",
+   "parts": [
+    "Main Body.1"
+   ],
+   "occurrences": [
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1"
+   ],
+   "faces": {
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1": [
+     470,
+     473,
+     474,
+     475,
+     476
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 470,
+     "overlap": 0.602
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 473,
+     "overlap": 0.26
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 474,
+     "overlap": 0.25
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 475,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 476,
+     "overlap": 0.229
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.217,
+   "joint": "cylindrical",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "transform": [
+    [
+     -0.0,
+     -0.0,
+     -1.0,
+     -35.5
+    ],
+    [
+     -0.696423,
+     -0.717631,
+     0.0,
+     -51.587766
+    ],
+    [
+     -0.717631,
+     0.696423,
+     0.0,
+     -18.633973
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "source": "TOS Svitavy 125.1/Assem1.1/Retaining Pin.1",
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "in-place",
+   "parts": [
+    "Main Body.1"
+   ],
+   "occurrences": [
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1"
+   ],
+   "faces": {
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1": [
+     460,
+     461,
+     463,
+     464,
+     507
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 460,
+     "overlap": 0.64
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 461,
+     "overlap": 0.204
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 463,
+     "overlap": 0.743
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 464,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 507,
+     "overlap": 0.25
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.217,
+   "joint": "cylindrical",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "transform": [
+    [
+     -0.0,
+     0.0,
+     -1.0,
+     -35.5
+    ],
+    [
+     -0.696423,
+     -0.717631,
+     -0.0,
+     41.931376
+    ],
+    [
+     -0.717631,
+     0.696423,
+     0.0,
+     -35.359329
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "source": "TOS Svitavy 125.1/Assem1.1/Retaining Pin.2",
+   "id": 2,
+   "group": 1
+  },
+  {
+   "found_by": "in-place",
+   "parts": [
+    "Main Body.1"
+   ],
+   "occurrences": [
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1"
+   ],
+   "faces": {
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1": [
+     491,
+     492,
+     494,
+     496,
+     497
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 491,
+     "overlap": 0.753
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 492,
+     "overlap": 0.34
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 494,
+     "overlap": 0.417
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 496,
+     "overlap": 0.25
+    },
+    {
+     "selected_face": 16,
+     "target": "TOS Svitavy 125.1/Assem1.1/Main Body.1",
+     "target_face": 497,
+     "overlap": 0.965
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.217,
+   "joint": "cylindrical",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "transform": [
+    [
+     -0.0,
+     0.0,
+     -1.0,
+     -35.5
+    ],
+    [
+     -0.696423,
+     -0.717631,
+     -0.0,
+     9.656389
+    ],
+    [
+     -0.717631,
+     0.696423,
+     0.0,
+     53.993302
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "source": "TOS Svitavy 125.1/Assem1.1/Retaining Pin.3",
+   "id": 3,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "Main Body.1"
+   ],
+   "occurrences": [
+    "TOS Svitavy 125.1/Assem1.1/Main Body.1"
+   ],
+   "positions": 3,
+   "match_ids": [
+    1,
+    2,
+    3
+   ],
+   "fits": [
+    "clearance"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "01. Test00-01.1",
+   "occurrence": "01. Test00-01.1/=>[0:1:1:3]",
+   "faces": [
+    21
+   ],
+   "reason": "too small",
+   "value": -0.7
+  },
+  {
+   "part": "01. Test00-02.1",
+   "occurrence": "01. Test00-02.1",
+   "faces": [
+    33
+   ],
+   "reason": "too loose",
+   "value": 1.3
+  },
+  {
+   "part": "01. Test00-12.1",
+   "occurrence": "01. Test00-12.1/=>[0:1:1:52]",
+   "faces": [
+    7
+   ],
+   "reason": "collides with 01. Test00-12.1",
+   "value": null
+  },
+  {
+   "part": "01. Test00-12.2",
+   "occurrence": "01. Test00-12.2/=>[0:1:1:52]",
+   "faces": [
+    7
+   ],
+   "reason": "collides with 01. Test00-12.2",
+   "value": null
+  },
+  {
+   "part": "01. Test00-M90S B34(ok).1",
+   "occurrence": "Product2.1/01. Test00-M90S B34(ok).1/=>[0:1:1:13]",
+   "faces": [
+    5,
+    15
+   ],
+   "reason": "faces do not really overlap",
+   "value": null
+  },
+  {
+   "part": "Adapter Plate.1",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Adapter Plate.1",
+   "faces": [
+    4
+   ],
+   "reason": "collides with Stud M6x16.1",
+   "value": null
+  },
+  {
+   "part": "Cover.1",
+   "occurrence": "TOS Svitavy 125.1/Assem1.1/Cover.1",
+   "faces": [
+    39
+   ],
+   "reason": "too loose",
+   "value": 1.7
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [
+  "MERGED_FACES: some selected faces are pieces of one surface (e.g. a cylinder stored as two halves) and are treated as one face",
+  "SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1",
+  "EMPTY_PART: 6 entries in the file have no faces and are ignored"
+ ],
+ "seconds": 19.9
+}

@@ -1,0 +1,9 @@
+1 part(s) / 1 position(s) fit the selected faces [5, 13, 14]  (8.6 s)
+  clearance limit for this run: 3 mm
+  [1] 01. Test00-06.1: clearance (clearance 2.819 mm), prismatic -> sliding fit
+        match #1: faces [46, 50, 54]  [in-place]
+  near-miss 01. Test00-01.1: position residual
+  near-miss 01. Test00-02.1: faces do not really overlap
+  near-miss 01. Test00-M90S B34(ok).1: angles
+  warning SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1
+  warning EMPTY_PART: 6 entries in the file have no faces and are ignored

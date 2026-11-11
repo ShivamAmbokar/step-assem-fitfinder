@@ -1,0 +1,5 @@
+2 part(s) / 2 position(s) fit the selected faces [5, 4]  (0.8 s)
+  [1] motor_1: clearance (clearance 0.05 mm), prismatic -> sliding fit
+        match #1: faces [7, 8]  [search]
+  [2] motor_2: clearance (clearance 0.05 mm), prismatic -> sliding fit
+        match #2: faces [7, 8]  [search]

@@ -1,0 +1,8 @@
+1 part(s) / 4 position(s) fit the selected faces [4, 3]  (0.6 s)
+  [1] cover: clearance (clearance 0.5 mm), revolute -> running fit  - 4 positions
+        match #1: faces [3, 7]  [search]
+        match #2: faces [3, 8]  [search]
+        match #3: faces [3, 9]  [search]
+        match #4: faces [3, 10]  [in-place + search]
+  near-miss housing: collides with housing
+  near-miss lid_small: too loose (+2.000 mm)

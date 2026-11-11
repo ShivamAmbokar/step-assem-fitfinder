@@ -1,0 +1,17 @@
+8 part(s) / 8 position(s) fit the selected faces [9, 7, 10, 8]  (1.9 s)
+  [1] pinion_1: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #1: faces [4, 5, 6, 7]  [search]
+  [2] pinion_1: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #2: faces [4, 5, 6, 7]  [search]
+  [3] pinion_2: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #3: faces [4, 5, 6, 7]  [search]
+  [4] pinion_2: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #4: faces [4, 5, 6, 7]  [search]
+  [5] pinion_3: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #5: faces [4, 5, 6, 7]  [search]
+  [6] pinion_3: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #6: faces [4, 5, 6, 7]  [search]
+  [7] pinion_4: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #7: faces [4, 5, 6, 7]  [search]
+  [8] pinion_4: exact (clearance 0.0 mm), prismatic -> coincident, can slide
+        match #8: faces [4, 5, 6, 7]  [search]

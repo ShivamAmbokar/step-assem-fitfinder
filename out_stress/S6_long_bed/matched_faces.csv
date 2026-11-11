@@ -1,0 +1,7 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,bed,bed,7,4,1.0,exact,0.0,prismatic,search
+1,bed,bed,10,3,1.0,exact,0.0,prismatic,search
+1,bed,bed,15,5,1.0,exact,0.0,prismatic,search
+2,bed,bed,11,4,0.667,exact,0.0,prismatic,search
+2,bed,bed,13,3,0.667,exact,0.0,prismatic,search
+2,bed,bed,16,5,1.0,exact,0.0,prismatic,search

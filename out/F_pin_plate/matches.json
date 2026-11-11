@@ -1,0 +1,309 @@
+{
+ "part": "tests_out/F_pin_plate/part.step",
+ "assembly": "tests_out/F_pin_plate/assembly.step",
+ "selected_faces": [
+  4
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "pin"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.171,
+     -0.4698,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 18.33,
+   "transform": [
+    [
+     0.939693,
+     -0.296198,
+     0.17101,
+     -35.467781
+    ],
+    [
+     0.34202,
+     0.813798,
+     -0.469846,
+     -7.810031
+    ],
+    [
+     0.0,
+     0.5,
+     0.866025,
+     -8.29941
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     8
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 8,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.171,
+     -0.4698,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 18.33,
+   "transform": [
+    [
+     0.939693,
+     -0.296198,
+     0.17101,
+     -12.915158
+    ],
+    [
+     0.34202,
+     0.813798,
+     -0.469846,
+     0.398452
+    ],
+    [
+     0.0,
+     0.5,
+     0.866025,
+     -8.29941
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     9
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 9,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.5,
+   "joint": "cylindrical",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     0.171,
+     -0.4698,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 18.33,
+   "transform": [
+    [
+     0.939693,
+     -0.296198,
+     0.17101,
+     9.637465
+    ],
+    [
+     0.34202,
+     0.813798,
+     -0.469846,
+     8.606936
+    ],
+    [
+     0.0,
+     0.5,
+     0.866025,
+     -8.29941
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 3,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 10,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "interference",
+   "clearance": -0.03,
+   "joint": "cylindrical",
+   "behaviour": "press fit (coincident)",
+   "free_directions": [
+    [
+     0.171,
+     -0.4698,
+     0.866
+    ]
+   ],
+   "engaged_length_mm": 18.33,
+   "transform": [
+    [
+     0.939693,
+     -0.296198,
+     0.17101,
+     32.190088
+    ],
+    [
+     0.34202,
+     0.813798,
+     -0.469846,
+     16.815419
+    ],
+    [
+     0.0,
+     0.5,
+     0.866025,
+     -8.29941
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 4,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "positions": 4,
+   "match_ids": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "fits": [
+    "clearance",
+    "exact",
+    "interference"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  }
+ ],
+ "near_misses": [
+  {
+   "part": "plate_big",
+   "occurrence": "plate_big",
+   "faces": [
+    7
+   ],
+   "reason": "too loose",
+   "value": 2.0
+  }
+ ],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.5
+}

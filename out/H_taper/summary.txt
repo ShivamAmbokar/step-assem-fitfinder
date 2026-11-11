@@ -1,0 +1,5 @@
+2 part(s) / 2 position(s) fit the selected faces [4]  (0.2 s)
+  [1] sleeve_1: exact (clearance 0.0 mm), revolute -> coincident, can turn
+        match #1: faces [7]  [search]
+  [2] sleeve_2: exact (clearance 0.0 mm), revolute -> coincident, can turn
+        match #2: faces [7]  [search]

@@ -1,0 +1,7 @@
+1 part(s) / 4 position(s) fit the selected faces [4]  (0.5 s)
+  [1] plate: different fits per position, cylindrical  - 4 positions
+        match #1: faces [7]  (exact, 0.0 mm, coincident, can slide and turn)  [search]
+        match #2: faces [8]  (exact, 0.0 mm, coincident, can slide and turn)  [search]
+        match #3: faces [9]  (clearance, 0.5 mm, sliding fit)  [search]
+        match #4: faces [10]  (interference, -0.03 mm, press fit (coincident))  [search]
+  near-miss plate_big: too loose (+2.000 mm)

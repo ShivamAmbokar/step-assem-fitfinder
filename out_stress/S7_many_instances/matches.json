@@ -1,0 +1,2975 @@
+{
+ "part": "tests_stress/S7_many_instances/part.step",
+ "assembly": "tests_stress/S7_many_instances/assembly.step",
+ "selected_faces": [
+  4
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "pin"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_1"
+   ],
+   "occurrences": [
+    "bush_1"
+   ],
+   "faces": {
+    "bush_1": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_1",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.3815,
+     0.1542,
+     0.9114
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.916182,
+     -0.122643,
+     -0.381535,
+     7.312753
+    ],
+    [
+     0.193907,
+     0.968824,
+     0.154206,
+     -2.955622
+    ],
+    [
+     0.350728,
+     -0.215264,
+     0.911401,
+     -17.468516
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_10"
+   ],
+   "occurrences": [
+    "bush_10"
+   ],
+   "faces": {
+    "bush_10": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_10",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.7238,
+     0.6894,
+     0.0288
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.022509,
+     -0.689596,
+     -0.723844,
+     193.873683
+    ],
+    [
+     0.018155,
+     -0.72419,
+     0.689361,
+     46.787245
+    ],
+    [
+     -0.999582,
+     0.002376,
+     0.02882,
+     -0.552384
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 2
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_11"
+   ],
+   "occurrences": [
+    "bush_11"
+   ],
+   "faces": {
+    "bush_11": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_11",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.3887,
+     -0.7249,
+     0.5688
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.292668,
+     0.873657,
+     0.388675,
+     232.550394
+    ],
+    [
+     -0.682458,
+     0.093866,
+     -0.724873,
+     73.893395
+    ],
+    [
+     -0.669774,
+     -0.477401,
+     0.568763,
+     -10.901287
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 3,
+   "group": 3
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_12"
+   ],
+   "occurrences": [
+    "bush_12"
+   ],
+   "faces": {
+    "bush_12": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_12",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.2227,
+     -0.6677,
+     0.7103
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.974819,
+     -0.011182,
+     -0.222717,
+     304.268745
+    ],
+    [
+     -0.144179,
+     0.730309,
+     -0.667728,
+     72.798129
+    ],
+    [
+     0.170119,
+     0.683025,
+     0.710307,
+     -13.614214
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 4,
+   "group": 4
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_13"
+   ],
+   "occurrences": [
+    "bush_13"
+   ],
+   "faces": {
+    "bush_13": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_13",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.1619,
+     -0.3521,
+     0.9218
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.779385,
+     -0.605269,
+     -0.16189,
+     3.102896
+    ],
+    [
+     0.527353,
+     0.77324,
+     -0.352134,
+     126.749232
+    ],
+    [
+     0.338316,
+     0.189075,
+     0.921842,
+     -17.668645
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 5,
+   "group": 5
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_14"
+   ],
+   "occurrences": [
+    "bush_14"
+   ],
+   "faces": {
+    "bush_14": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_14",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.334,
+     -0.9089,
+     0.2499
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.928546,
+     -0.1621,
+     0.333955,
+     53.599202
+    ],
+    [
+     -0.271615,
+     -0.316541,
+     -0.90886,
+     137.419824
+    ],
+    [
+     0.253036,
+     -0.934626,
+     0.249894,
+     -4.789636
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 6,
+   "group": 6
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_15"
+   ],
+   "occurrences": [
+    "bush_15"
+   ],
+   "faces": {
+    "bush_15": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_15",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.878,
+     -0.0944,
+     -0.4692
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.399847,
+     -0.263017,
+     -0.878034,
+     136.828987
+    ],
+    [
+     -0.683516,
+     -0.723799,
+     -0.09445,
+     121.81029
+    ],
+    [
+     -0.610679,
+     0.637916,
+     -0.469186,
+     8.992729
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 7,
+   "group": 7
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_16"
+   ],
+   "occurrences": [
+    "bush_16"
+   ],
+   "faces": {
+    "bush_16": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_16",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.8525,
+     0.1426,
+     -0.503
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.376896,
+     -0.362311,
+     0.852456,
+     163.661265
+    ],
+    [
+     -0.834334,
+     -0.532507,
+     0.142558,
+     117.267647
+    ],
+    [
+     0.402288,
+     -0.764962,
+     -0.502988,
+     9.640596
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 8,
+   "group": 8
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_17"
+   ],
+   "occurrences": [
+    "bush_17"
+   ],
+   "faces": {
+    "bush_17": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_17",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0555,
+     0.0701,
+     0.996
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.943282,
+     0.327323,
+     0.055495,
+     238.936344
+    ],
+    [
+     -0.330701,
+     0.941126,
+     0.070133,
+     118.655779
+    ],
+    [
+     -0.029272,
+     -0.084508,
+     0.995993,
+     -19.089862
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 9,
+   "group": 9
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_18"
+   ],
+   "occurrences": [
+    "bush_18"
+   ],
+   "faces": {
+    "bush_18": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_18",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.2663,
+     -0.4776,
+     0.8373
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.296134,
+     -0.917269,
+     -0.266313,
+     305.10434
+    ],
+    [
+     0.86716,
+     -0.141304,
+     -0.477564,
+     129.153311
+    ],
+    [
+     0.400423,
+     -0.372359,
+     0.837263,
+     -16.047545
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 10,
+   "group": 10
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_19"
+   ],
+   "occurrences": [
+    "bush_19"
+   ],
+   "faces": {
+    "bush_19": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_19",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.9495,
+     0.2871,
+     0.1263
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.144236,
+     -0.278507,
+     0.949542,
+     -18.19955
+    ],
+    [
+     0.757272,
+     0.586617,
+     0.287089,
+     174.49746
+    ],
+    [
+     -0.636973,
+     0.76047,
+     0.126295,
+     -2.420646
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 11,
+   "group": 11
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_2"
+   ],
+   "occurrences": [
+    "bush_2"
+   ],
+   "faces": {
+    "bush_2": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_2",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.1341,
+     0.5563,
+     0.8201
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.986921,
+     -0.089422,
+     -0.134127,
+     62.570768
+    ],
+    [
+     -0.00032,
+     -0.830951,
+     0.556346,
+     -10.663297
+    ],
+    [
+     -0.161203,
+     0.549113,
+     0.820054,
+     -15.717708
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 12,
+   "group": 12
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_20"
+   ],
+   "occurrences": [
+    "bush_20"
+   ],
+   "faces": {
+    "bush_20": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_20",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.4764,
+     -0.5366,
+     0.6965
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.87575,
+     0.078323,
+     0.476369,
+     50.869599
+    ],
+    [
+     -0.360159,
+     -0.763083,
+     -0.536648,
+     190.285745
+    ],
+    [
+     0.321477,
+     -0.641538,
+     0.696478,
+     -13.349169
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 13,
+   "group": 13
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_21"
+   ],
+   "occurrences": [
+    "bush_21"
+   ],
+   "faces": {
+    "bush_21": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_21",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.8535,
+     -0.1595,
+     0.496
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.330552,
+     -0.402767,
+     0.85353,
+     103.64067
+    ],
+    [
+     0.901633,
+     0.40203,
+     -0.159469,
+     183.056492
+    ],
+    [
+     -0.278916,
+     0.822284,
+     0.49604,
+     -9.507433
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 14,
+   "group": 14
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_22"
+   ],
+   "occurrences": [
+    "bush_22"
+   ],
+   "faces": {
+    "bush_22": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_22",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.4539,
+     -0.5406,
+     0.7083
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.890342,
+     -0.03509,
+     0.453939,
+     171.299507
+    ],
+    [
+     0.306512,
+     0.783439,
+     -0.540623,
+     190.361936
+    ],
+    [
+     -0.336663,
+     0.620477,
+     0.708284,
+     -13.575449
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 15,
+   "group": 15
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_23"
+   ],
+   "occurrences": [
+    "bush_23"
+   ],
+   "faces": {
+    "bush_23": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_23",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0505,
+     -0.6631,
+     0.7468
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.992871,
+     0.107973,
+     0.050491,
+     239.032252
+    ],
+    [
+     -0.047516,
+     0.747019,
+     -0.663102,
+     192.709458
+    ],
+    [
+     -0.109315,
+     0.655976,
+     0.746824,
+     -14.314128
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 16,
+   "group": 16
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_24"
+   ],
+   "occurrences": [
+    "bush_24"
+   ],
+   "faces": {
+    "bush_24": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_24",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.1177,
+     -0.8339,
+     -0.5393
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.192322,
+     0.974252,
+     -0.117664,
+     302.25522
+    ],
+    [
+     0.551927,
+     0.008246,
+     -0.833852,
+     195.982163
+    ],
+    [
+     -0.811412,
+     -0.22531,
+     -0.539302,
+     10.336613
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 17,
+   "group": 17
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_25"
+   ],
+   "occurrences": [
+    "bush_25"
+   ],
+   "faces": {
+    "bush_25": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_25",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.4368,
+     0.3813,
+     0.8147
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.605147,
+     -0.665574,
+     0.436816,
+     -8.372302
+    ],
+    [
+     0.545591,
+     0.746293,
+     0.381284,
+     232.692061
+    ],
+    [
+     -0.579765,
+     0.00759,
+     0.814748,
+     -15.616008
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 18,
+   "group": 18
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_26"
+   ],
+   "occurrences": [
+    "bush_26"
+   ],
+   "faces": {
+    "bush_26": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_26",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.6445,
+     0.637,
+     -0.4229
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.151273,
+     0.749465,
+     0.64453,
+     47.64651
+    ],
+    [
+     0.648388,
+     -0.416934,
+     0.636993,
+     227.790974
+    ],
+    [
+     0.74613,
+     0.514265,
+     -0.422873,
+     8.105065
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 19,
+   "group": 19
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_27"
+   ],
+   "occurrences": [
+    "bush_27"
+   ],
+   "faces": {
+    "bush_27": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_27",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.4746,
+     0.6325,
+     0.6121
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.825129,
+     0.306435,
+     -0.474615,
+     129.09679
+    ],
+    [
+     -0.561832,
+     -0.533156,
+     0.632526,
+     227.876578
+    ],
+    [
+     -0.059215,
+     0.78857,
+     0.612087,
+     -11.731674
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 20,
+   "group": 20
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_28"
+   ],
+   "occurrences": [
+    "bush_28"
+   ],
+   "faces": {
+    "bush_28": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_28",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.4863,
+     -0.0746,
+     0.8706
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.262334,
+     0.833485,
+     -0.486297,
+     189.320686
+    ],
+    [
+     -0.937914,
+     -0.338745,
+     -0.07463,
+     241.430416
+    ],
+    [
+     -0.226934,
+     0.436526,
+     0.870601,
+     -16.686517
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 21,
+   "group": 21
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_29"
+   ],
+   "occurrences": [
+    "bush_29"
+   ],
+   "faces": {
+    "bush_29": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_29",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.1877,
+     0.0019,
+     0.9822
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.943309,
+     -0.273758,
+     0.187685,
+     236.402701
+    ],
+    [
+     0.27836,
+     0.960475,
+     0.001905,
+     239.963486
+    ],
+    [
+     -0.180788,
+     0.050447,
+     0.982227,
+     -18.826025
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 22,
+   "group": 22
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_3"
+   ],
+   "occurrences": [
+    "bush_3"
+   ],
+   "faces": {
+    "bush_3": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_3",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0216,
+     0.4042,
+     0.9144
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.925757,
+     0.377501,
+     0.021594,
+     119.586106
+    ],
+    [
+     -0.353445,
+     0.843645,
+     0.404154,
+     -7.746286
+    ],
+    [
+     0.134351,
+     -0.381781,
+     0.914436,
+     -17.52669
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 23,
+   "group": 23
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_30"
+   ],
+   "occurrences": [
+    "bush_30"
+   ],
+   "faces": {
+    "bush_30": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_30",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.1564,
+     0.8155,
+     0.5572
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.593244,
+     0.789683,
+     -0.156403,
+     302.997715
+    ],
+    [
+     -0.373493,
+     0.442101,
+     0.815506,
+     224.369477
+    ],
+    [
+     0.713137,
+     -0.425379,
+     0.557215,
+     -10.67996
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 24,
+   "group": 24
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_31"
+   ],
+   "occurrences": [
+    "bush_31"
+   ],
+   "faces": {
+    "bush_31": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_31",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.5753,
+     0.1825,
+     0.7973
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.556923,
+     -0.599074,
+     0.575279,
+     -11.02619
+    ],
+    [
+     0.801321,
+     -0.569731,
+     0.182456,
+     296.502927
+    ],
+    [
+     0.21845,
+     0.562598,
+     0.797348,
+     -15.282497
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 25,
+   "group": 25
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_32"
+   ],
+   "occurrences": [
+    "bush_32"
+   ],
+   "faces": {
+    "bush_32": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_32",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.4103,
+     0.6772,
+     0.6107
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.720476,
+     0.559043,
+     -0.410349,
+     67.865021
+    ],
+    [
+     -0.169785,
+     0.715914,
+     0.67723,
+     287.019762
+    ],
+    [
+     0.672375,
+     -0.418256,
+     0.610716,
+     -11.705382
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 26,
+   "group": 26
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_33"
+   ],
+   "occurrences": [
+    "bush_33"
+   ],
+   "faces": {
+    "bush_33": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_33",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.4575,
+     0.3856,
+     0.8012
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.60386,
+     0.652689,
+     -0.457549,
+     128.769684
+    ],
+    [
+     -0.526679,
+     0.757583,
+     0.385588,
+     292.609571
+    ],
+    [
+     0.5983,
+     0.00814,
+     0.801231,
+     -15.356931
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 27,
+   "group": 27
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_34"
+   ],
+   "occurrences": [
+    "bush_34"
+   ],
+   "faces": {
+    "bush_34": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_34",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.2916,
+     -0.3984,
+     0.8696
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.820862,
+     -0.491068,
+     0.291612,
+     174.41077
+    ],
+    [
+     0.570963,
+     0.717806,
+     -0.398442,
+     307.636814
+    ],
+    [
+     -0.013658,
+     0.493566,
+     0.869601,
+     -16.667354
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 28,
+   "group": 28
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_35"
+   ],
+   "occurrences": [
+    "bush_35"
+   ],
+   "faces": {
+    "bush_35": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_35",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.8715,
+     0.4828,
+     -0.0862
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.470922,
+     0.136911,
+     -0.871486,
+     256.703481
+    ],
+    [
+     -0.774777,
+     0.408204,
+     0.482793,
+     290.746465
+    ],
+    [
+     0.421844,
+     0.902566,
+     -0.086157,
+     1.651339
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 29,
+   "group": 29
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_36"
+   ],
+   "occurrences": [
+    "bush_36"
+   ],
+   "faces": {
+    "bush_36": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_36",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0306,
+     -0.0115,
+     0.9995
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.999122,
+     0.028614,
+     0.030587,
+     299.413748
+    ],
+    [
+     -0.028274,
+     0.999534,
+     -0.01151,
+     300.220616
+    ],
+    [
+     -0.030902,
+     0.010635,
+     0.999466,
+     -19.156428
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 30,
+   "group": 30
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_4"
+   ],
+   "occurrences": [
+    "bush_4"
+   ],
+   "faces": {
+    "bush_4": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_4",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.7324,
+     -0.2554,
+     0.6312
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.186026,
+     0.654984,
+     0.732387,
+     165.962591
+    ],
+    [
+     -0.8167,
+     0.517489,
+     -0.255357,
+     4.894333
+    ],
+    [
+     -0.546256,
+     -0.550637,
+     0.631192,
+     -12.097842
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 31,
+   "group": 31
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_5"
+   ],
+   "occurrences": [
+    "bush_5"
+   ],
+   "faces": {
+    "bush_5": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_5",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.6529,
+     0.1153,
+     -0.7486
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     -0.665533,
+     0.361625,
+     0.652911,
+     227.485877
+    ],
+    [
+     0.559199,
+     0.820976,
+     0.115299,
+     -2.209894
+    ],
+    [
+     -0.494329,
+     0.441842,
+     -0.748608,
+     14.348317
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 32,
+   "group": 32
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_6"
+   ],
+   "occurrences": [
+    "bush_6"
+   ],
+   "faces": {
+    "bush_6": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_6",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.2074,
+     -0.9775,
+     0.0392
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.257672,
+     -0.943706,
+     -0.207424,
+     303.975623
+    ],
+    [
+     -0.015925,
+     0.210496,
+     -0.977465,
+     18.734747
+    ],
+    [
+     0.966101,
+     0.255168,
+     0.03921,
+     -0.751524
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 33,
+   "group": 33
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_7"
+   ],
+   "occurrences": [
+    "bush_7"
+   ],
+   "faces": {
+    "bush_7": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_7",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.7601,
+     -0.4441,
+     0.4744
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.647632,
+     -0.05291,
+     0.760114,
+     -14.568853
+    ],
+    [
+     0.577209,
+     0.685283,
+     -0.444092,
+     68.511762
+    ],
+    [
+     -0.497396,
+     0.726352,
+     0.474351,
+     -9.091729
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 34,
+   "group": 34
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_8"
+   ],
+   "occurrences": [
+    "bush_8"
+   ],
+   "faces": {
+    "bush_8": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_8",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.424,
+     0.7918,
+     -0.4396
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.655908,
+     -0.624504,
+     -0.424004,
+     68.126741
+    ],
+    [
+     -0.066258,
+     -0.607178,
+     0.791799,
+     44.823858
+    ],
+    [
+     -0.751927,
+     -0.491253,
+     -0.439631,
+     8.426263
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 35,
+   "group": 35
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "bush_9"
+   ],
+   "occurrences": [
+    "bush_9"
+   ],
+   "faces": {
+    "bush_9": [
+     4
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "bush_9",
+     "target_face": 4,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     -0.7152,
+     0.2875,
+     0.6371
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.277478,
+     0.641497,
+     -0.715183,
+     133.707683
+    ],
+    [
+     -0.719825,
+     0.631838,
+     0.28746,
+     54.490358
+    ],
+    [
+     0.636285,
+     0.435043,
+     0.637087,
+     -12.21083
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 36,
+   "group": 36
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "bush_1"
+   ],
+   "occurrences": [
+    "bush_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "bush_10"
+   ],
+   "occurrences": [
+    "bush_10"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 3,
+   "parts": [
+    "bush_11"
+   ],
+   "occurrences": [
+    "bush_11"
+   ],
+   "positions": 1,
+   "match_ids": [
+    3
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 4,
+   "parts": [
+    "bush_12"
+   ],
+   "occurrences": [
+    "bush_12"
+   ],
+   "positions": 1,
+   "match_ids": [
+    4
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 5,
+   "parts": [
+    "bush_13"
+   ],
+   "occurrences": [
+    "bush_13"
+   ],
+   "positions": 1,
+   "match_ids": [
+    5
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 6,
+   "parts": [
+    "bush_14"
+   ],
+   "occurrences": [
+    "bush_14"
+   ],
+   "positions": 1,
+   "match_ids": [
+    6
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 7,
+   "parts": [
+    "bush_15"
+   ],
+   "occurrences": [
+    "bush_15"
+   ],
+   "positions": 1,
+   "match_ids": [
+    7
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 8,
+   "parts": [
+    "bush_16"
+   ],
+   "occurrences": [
+    "bush_16"
+   ],
+   "positions": 1,
+   "match_ids": [
+    8
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 9,
+   "parts": [
+    "bush_17"
+   ],
+   "occurrences": [
+    "bush_17"
+   ],
+   "positions": 1,
+   "match_ids": [
+    9
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 10,
+   "parts": [
+    "bush_18"
+   ],
+   "occurrences": [
+    "bush_18"
+   ],
+   "positions": 1,
+   "match_ids": [
+    10
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 11,
+   "parts": [
+    "bush_19"
+   ],
+   "occurrences": [
+    "bush_19"
+   ],
+   "positions": 1,
+   "match_ids": [
+    11
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 12,
+   "parts": [
+    "bush_2"
+   ],
+   "occurrences": [
+    "bush_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    12
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 13,
+   "parts": [
+    "bush_20"
+   ],
+   "occurrences": [
+    "bush_20"
+   ],
+   "positions": 1,
+   "match_ids": [
+    13
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 14,
+   "parts": [
+    "bush_21"
+   ],
+   "occurrences": [
+    "bush_21"
+   ],
+   "positions": 1,
+   "match_ids": [
+    14
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 15,
+   "parts": [
+    "bush_22"
+   ],
+   "occurrences": [
+    "bush_22"
+   ],
+   "positions": 1,
+   "match_ids": [
+    15
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 16,
+   "parts": [
+    "bush_23"
+   ],
+   "occurrences": [
+    "bush_23"
+   ],
+   "positions": 1,
+   "match_ids": [
+    16
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 17,
+   "parts": [
+    "bush_24"
+   ],
+   "occurrences": [
+    "bush_24"
+   ],
+   "positions": 1,
+   "match_ids": [
+    17
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 18,
+   "parts": [
+    "bush_25"
+   ],
+   "occurrences": [
+    "bush_25"
+   ],
+   "positions": 1,
+   "match_ids": [
+    18
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 19,
+   "parts": [
+    "bush_26"
+   ],
+   "occurrences": [
+    "bush_26"
+   ],
+   "positions": 1,
+   "match_ids": [
+    19
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 20,
+   "parts": [
+    "bush_27"
+   ],
+   "occurrences": [
+    "bush_27"
+   ],
+   "positions": 1,
+   "match_ids": [
+    20
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 21,
+   "parts": [
+    "bush_28"
+   ],
+   "occurrences": [
+    "bush_28"
+   ],
+   "positions": 1,
+   "match_ids": [
+    21
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 22,
+   "parts": [
+    "bush_29"
+   ],
+   "occurrences": [
+    "bush_29"
+   ],
+   "positions": 1,
+   "match_ids": [
+    22
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 23,
+   "parts": [
+    "bush_3"
+   ],
+   "occurrences": [
+    "bush_3"
+   ],
+   "positions": 1,
+   "match_ids": [
+    23
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 24,
+   "parts": [
+    "bush_30"
+   ],
+   "occurrences": [
+    "bush_30"
+   ],
+   "positions": 1,
+   "match_ids": [
+    24
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 25,
+   "parts": [
+    "bush_31"
+   ],
+   "occurrences": [
+    "bush_31"
+   ],
+   "positions": 1,
+   "match_ids": [
+    25
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 26,
+   "parts": [
+    "bush_32"
+   ],
+   "occurrences": [
+    "bush_32"
+   ],
+   "positions": 1,
+   "match_ids": [
+    26
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 27,
+   "parts": [
+    "bush_33"
+   ],
+   "occurrences": [
+    "bush_33"
+   ],
+   "positions": 1,
+   "match_ids": [
+    27
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 28,
+   "parts": [
+    "bush_34"
+   ],
+   "occurrences": [
+    "bush_34"
+   ],
+   "positions": 1,
+   "match_ids": [
+    28
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 29,
+   "parts": [
+    "bush_35"
+   ],
+   "occurrences": [
+    "bush_35"
+   ],
+   "positions": 1,
+   "match_ids": [
+    29
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 30,
+   "parts": [
+    "bush_36"
+   ],
+   "occurrences": [
+    "bush_36"
+   ],
+   "positions": 1,
+   "match_ids": [
+    30
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 31,
+   "parts": [
+    "bush_4"
+   ],
+   "occurrences": [
+    "bush_4"
+   ],
+   "positions": 1,
+   "match_ids": [
+    31
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 32,
+   "parts": [
+    "bush_5"
+   ],
+   "occurrences": [
+    "bush_5"
+   ],
+   "positions": 1,
+   "match_ids": [
+    32
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 33,
+   "parts": [
+    "bush_6"
+   ],
+   "occurrences": [
+    "bush_6"
+   ],
+   "positions": 1,
+   "match_ids": [
+    33
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 34,
+   "parts": [
+    "bush_7"
+   ],
+   "occurrences": [
+    "bush_7"
+   ],
+   "positions": 1,
+   "match_ids": [
+    34
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 35,
+   "parts": [
+    "bush_8"
+   ],
+   "occurrences": [
+    "bush_8"
+   ],
+   "positions": 1,
+   "match_ids": [
+    35
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  },
+  {
+   "group": 36,
+   "parts": [
+    "bush_9"
+   ],
+   "occurrences": [
+    "bush_9"
+   ],
+   "positions": 1,
+   "match_ids": [
+    36
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 1.9
+}

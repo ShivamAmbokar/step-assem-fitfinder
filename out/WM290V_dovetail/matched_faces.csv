@@ -1,0 +1,4 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,01. Test00-06.1,01. Test00-06.1,54,5,0.688,clearance,2.819,prismatic,in-place
+1,01. Test00-06.1,01. Test00-06.1,46,13,0.84,clearance,2.819,prismatic,in-place
+1,01. Test00-06.1,01. Test00-06.1,50,14,0.917,clearance,2.819,prismatic,in-place

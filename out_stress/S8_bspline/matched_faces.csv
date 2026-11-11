@@ -1,0 +1,4 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,bush_nurbs,bush_nurbs,4,4,1.0,exact,0.0,cylindrical,search
+2,bush_nurbs_loose,bush_nurbs_loose,4,4,1.0,clearance,0.6,cylindrical,search
+3,bush_plain,bush_plain,4,4,1.0,exact,0.0,cylindrical,search

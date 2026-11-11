@@ -1,0 +1,6 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,vice_body,vice_body,3,8,1.0,clearance,0.2,prismatic,in-place + search
+1,vice_body,vice_body,4,4,1.0,clearance,0.2,prismatic,in-place + search
+1,vice_body,vice_body,9,6,1.0,clearance,0.2,prismatic,in-place + search
+1,vice_body,vice_body,8,7,1.0,clearance,0.2,prismatic,in-place + search
+1,vice_body,vice_body,10,5,1.0,clearance,0.2,prismatic,in-place + search

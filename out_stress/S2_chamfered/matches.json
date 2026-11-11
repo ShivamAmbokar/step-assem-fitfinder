@@ -1,0 +1,335 @@
+{
+ "part": "tests_stress/S2_chamfered/part.step",
+ "assembly": "tests_stress/S2_chamfered/assembly.step",
+ "selected_faces": [
+  9,
+  7,
+  10,
+  8
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 0
+ },
+ "source_occurrences": [
+  "key"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "pinion_1"
+   ],
+   "faces": {
+    "pinion_1": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "pinion_1",
+     "target_face": 7,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "pinion_1",
+     "target_face": 10,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "pinion_1",
+     "target_face": 9,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "pinion_1",
+     "target_face": 8,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 36.78,
+   "transform": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     50.0
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.00019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "pinion_2"
+   ],
+   "faces": {
+    "pinion_2": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "pinion_2",
+     "target_face": 7,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "pinion_2",
+     "target_face": 10,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "pinion_2",
+     "target_face": 9,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "pinion_2",
+     "target_face": 8,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 36.78,
+   "transform": [
+    [
+     0.866025,
+     -0.5,
+     0.0,
+     -25.0
+    ],
+    [
+     0.5,
+     0.866025,
+     0.0,
+     43.30127
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.00019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 2
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "pinion_3"
+   ],
+   "faces": {
+    "pinion_3": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 9,
+     "target": "pinion_3",
+     "target_face": 7,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 7,
+     "target": "pinion_3",
+     "target_face": 10,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 10,
+     "target": "pinion_3",
+     "target_face": 9,
+     "overlap": 1.0
+    },
+    {
+     "selected_face": 8,
+     "target": "pinion_3",
+     "target_face": 8,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.0,
+   "joint": "prismatic",
+   "behaviour": "coincident, can slide",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 36.78,
+   "transform": [
+    [
+     -0.866025,
+     -0.5,
+     0.0,
+     -25.0
+    ],
+    [
+     0.5,
+     -0.866025,
+     0.0,
+     -43.30127
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.00019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 3,
+   "group": 3
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "pinion_1"
+   ],
+   "occurrences": [
+    "pinion_1"
+   ],
+   "positions": 1,
+   "match_ids": [
+    1
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 2,
+   "parts": [
+    "pinion_2"
+   ],
+   "occurrences": [
+    "pinion_2"
+   ],
+   "positions": 1,
+   "match_ids": [
+    2
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  },
+  {
+   "group": 3,
+   "parts": [
+    "pinion_3"
+   ],
+   "occurrences": [
+    "pinion_3"
+   ],
+   "positions": 1,
+   "match_ids": [
+    3
+   ],
+   "fits": [
+    "exact"
+   ],
+   "joints": [
+    "prismatic"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 1.6
+}

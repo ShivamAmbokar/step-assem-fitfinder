@@ -1,0 +1,5 @@
+match_id,part,occurrence,target_face_id,selected_face_id,overlap,fit,clearance_mm,joint,found_by
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,407,23,0.486,exact,0.0,prismatic,in-place + search
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,405,33,0.482,exact,0.0,prismatic,in-place + search
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,408,24,0.479,exact,0.0,prismatic,in-place + search
+1,Main Body.1,TOS Svitavy 125.1/Assem1.1/Main Body.1,314,26,0.479,exact,0.0,prismatic,in-place + search

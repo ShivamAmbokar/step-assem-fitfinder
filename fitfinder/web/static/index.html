@@ -1,0 +1,161 @@
+<!doctype html>
+<!-- Layout only: behaviour in app.js, 3-D in viewer3d.js, colours in style.css. -->
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<title>fitfinder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="topbar">
+  <div class="brand">fit<span>finder</span></div>
+  <div id="crumbs">
+    <span>Assembly</span> <b id="crumbAsm">—</b> <span class="sep">›</span>
+    <span>Part to mate</span> <b id="crumbPart">—</b> <span class="sep">›</span>
+    <b id="crumbSel">0 faces</b>
+  </div>
+  <div class="spacer"></div>
+  <button class="icon" id="btnTheme" data-tip="Light / dark (T)">
+    <svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  <button class="icon on" id="btnInspector" data-tip="Properties panel">
+    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16"/></svg></button>
+</header>
+
+<nav id="toolbar">
+  <button class="icon on" data-pane="setup" data-tip="1  Setup: open files">
+    <svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></button>
+  <button class="icon" data-pane="tree" data-tip="2  Model tree: pick the part">
+    <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="5" rx="1"/><rect x="14" y="10" width="7" height="5" rx="1"/><rect x="14" y="17" width="7" height="4" rx="1"/><path d="M6.5 8v11h7.5M6.5 12.5h7.5"/></svg></button>
+  <button class="icon" data-pane="faces" data-tip="3  Faces: select what mates">
+    <svg viewBox="0 0 24 24"><path d="M5 3l14 7-6 2-2 6z"/></svg><span class="badge" id="badgeSel"></span></button>
+  <button class="icon" data-pane="run" data-tip="4  Find fits">
+    <svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></button>
+  <button class="icon" data-pane="results" data-tip="5  Results">
+    <svg viewBox="0 0 24 24"><path d="M4 6h1M4 12h1M4 18h1M9 6h11M9 12h11M9 18h11"/></svg><span class="badge" id="badgeRes"></span></button>
+  <div class="spacer"></div>
+  <button class="icon" data-pane="help" data-tip="Help and shortcuts (?)">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .8-1 1.6M12 16.8h.01"/></svg></button>
+</nav>
+
+<aside id="panel">
+
+  <section class="pane on" id="pane-setup">
+    <h2>Setup</h2>
+    <div class="step" id="stepAsm">
+      <div class="head"><span class="num"><span>1</span></span> Assembly</div>
+      <div class="row"><input type="text" id="asmPath" list="fileList" placeholder="lathe.step"><button class="btn" id="upAsm">Upload…</button></div>
+    </div>
+    <div class="step" id="stepPart">
+      <div class="head"><span class="num"><span>2</span></span> Part to mate</div>
+      <label class="radio"><input type="radio" name="partMode" value="pick" checked> Pick it in the assembly</label>
+      <label class="radio"><input type="radio" name="partMode" value="file"> Separate STEP file</label>
+      <div id="partPick" class="hint">After loading: choose the part in the <b>Model tree</b> or click it in the view, then <b>Set as part to mate</b>.</div>
+      <div id="partFile" style="display:none" class="row"><input type="text" id="partPath" list="fileList" placeholder="key.step"><button class="btn" id="upPart">Upload…</button></div>
+    </div>
+    <button class="btn primary big" id="btnLoad">Load</button>
+    <div class="hint" style="margin-top:12px">Files are read from <code id="rootDir">?</code>; uploads go to <code>uploads/</code> there.</div>
+    <datalist id="fileList"></datalist>
+    <input type="file" id="fileInput" accept=".step,.stp,.STEP,.STP,.gz" style="display:none">
+  </section>
+
+  <section class="pane" id="pane-tree">
+    <h2>Model tree</h2>
+    <input type="text" id="treeFilter" placeholder="Filter parts…">
+    <div class="hint">Click a part to inspect it; the eye hides it. <span class="mate-mark">MATE</span> = the part to be mated.</div>
+    <div class="list" id="tree" style="max-height:calc(100vh - 200px)"></div>
+  </section>
+
+  <section class="pane" id="pane-faces">
+    <h2>Faces to mate</h2>
+    <div id="facesNoPart" class="hint">Choose the part to mate first (Setup → step 2).</div>
+    <div id="facesBody" style="display:none">
+      <div class="hint">Click faces on the <b>highlighted part</b> in the view (Assembly or Part tab), or in the list below.</div>
+      <div class="row"><input type="text" id="selIds" placeholder="face IDs, e.g. 7,8,9,10"></div>
+      <div class="row"><button class="btn" id="btnGreen">Use green faces</button><button class="btn" id="btnClear">Clear</button></div>
+      <div class="warn" id="selWarn" style="display:none"></div>
+      <h3>All faces of <span id="facesPartName"></span></h3>
+      <div class="list" id="faceList"></div>
+    </div>
+  </section>
+
+  <section class="pane" id="pane-run">
+    <h2>Find fits</h2>
+    <dl class="props" id="runSummary"></dl>
+    <h3>Largest clearance (mm)</h3>
+    <div class="row"><input type="number" id="maxClear" value="1" min="0.05" max="20" step="0.5" style="max-width:80px" title="mm"></div>
+    <div class="hint">The loosest gap still reported as a fit. Raise it for loose fits, e.g. 3 for a dovetail with room for a gib strip.</div>
+    <h3>Search only near (optional)</h3>
+    <div class="row"><input type="text" id="near" placeholder="part name, e.g. chuck"><input type="number" id="margin" value="150" style="max-width:80px" title="mm"></div>
+    <div class="hint">Speeds up big assemblies: only parts within the margin (mm) of the named parts are searched.</div>
+    <button class="btn primary big" id="btnRun">Find fits</button>
+    <div id="runWarn"></div>
+  </section>
+
+  <section class="pane" id="pane-results">
+    <h2>Results</h2>
+    <div id="resHead" class="hint">No search yet.</div>
+    <div id="resList"></div>
+    <h3 id="nearHead" style="display:none">Near-misses (right shape, but not a fit)</h3>
+    <div class="list" id="nearList"></div>
+    <details class="log"><summary>Warnings and log</summary><pre id="log"></pre></details>
+  </section>
+
+  <section class="pane" id="pane-help">
+    <h2>Help</h2>
+    <h3>Assembly only (part is inside it)</h3>
+    <ol class="hint" style="padding-left:18px">
+      <li>Setup: assembly file, <i>Pick it in the assembly</i>, Load.</li>
+      <li>Model tree (or click in view): select the part → <b>Set as part to mate</b>.</li>
+      <li>Click its mating faces in the view (they turn blue).</li>
+      <li>Find fits → Results: click a position to see it.</li>
+    </ol>
+    <h3>Separate part file</h3>
+    <ol class="hint" style="padding-left:18px"><li>Setup: both files, <i>Separate STEP file</i>, Load.</li><li>Part tab: click faces. Then Find fits.</li></ol>
+    <h3>Mouse</h3>
+    <div class="hint">Left-drag rotate · right- or shift-drag pan · wheel zoom · click = pick</div>
+    <h3>Keys</h3>
+    <table class="keys hint">
+      <tr><td><kbd>F</kbd></td><td>fit view</td><td><kbd>1</kbd>–<kbd>4</kbd></td><td>iso / top / front / right</td></tr>
+      <tr><td><kbd>A</kbd> <kbd>P</kbd></td><td>assembly / part tab</td><td><kbd>X</kbd> <kbd>S</kbd> <kbd>H</kbd></td><td>other parts x-ray / solid / hidden</td></tr>
+      <tr><td><kbd>E</kbd></td><td>edges on/off</td><td><kbd>T</kbd></td><td>light / dark</td></tr>
+      <tr><td><kbd>Esc</kbd></td><td>show all results</td><td><kbd>?</kbd></td><td>this help</td></tr>
+    </table>
+    <h3>Colours</h3>
+    <div class="hint"><span style="color:#4a90ff">■</span> selected faces · <span style="color:#ff7a1f">■</span> matched faces · <span style="color:#3dc75a">■</span> your part placed in a fit · <span style="color:#f6cb1a">■</span> near-miss</div>
+  </section>
+</aside>
+
+<main id="viewport">
+  <canvas id="canvas"></canvas>
+  <div class="overlay" id="vp-tl">
+    <div class="seg"><button id="tabAsm" class="on">Assembly</button><button id="tabPart">Part</button></div>
+  </div>
+  <div class="overlay" id="vp-tr">
+    <div class="seg"><button data-view="fit" title="Fit (F)">Fit</button><button data-view="iso" title="Iso (1)">Iso</button><button data-view="top" title="Top (2)">Top</button><button data-view="front" title="Front (3)">Front</button><button data-view="right" title="Right (4)">Right</button></div>
+    <div class="seg" title="How parts that are not involved are drawn"><button data-ctx="xray" class="on">X-ray</button><button data-ctx="solid">Solid</button><button data-ctx="hidden">Hidden</button></div>
+    <div class="seg"><button id="btnEdges" class="on" title="Edges (E)">Edges</button></div>
+  </div>
+  <div class="overlay" id="vp-br">
+    <span><i style="background:#4a90ff"></i>selected</span><span><i style="background:#ff7a1f"></i>matched</span>
+    <span><i style="background:#3dc75a"></i>placed</span><span><i style="background:#f6cb1a"></i>near-miss</span>
+  </div>
+  <div id="empty"><div><h1>Open an assembly to begin</h1><div>Setup panel on the left → choose a file → Load</div></div></div>
+</main>
+
+<aside id="inspector">
+  <section class="pane on">
+    <h2>Properties</h2>
+    <div id="props" class="hint">Click a part or a face in the view.</div>
+  </section>
+</aside>
+
+<footer id="statusbar">
+  <span id="status">Ready.</span>
+  <span id="pickinfo"></span>
+  <span id="selinfo"></span>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

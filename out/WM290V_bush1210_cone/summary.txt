@@ -1,0 +1,8 @@
+1 part(s) / 1 position(s) fit the selected faces [3, 8]  (6.6 s)
+  [1] 01. Test00-03-80 x 1 SPZ Type 1 1210 TL.1: exact (clearance 0.0 mm), revolute -> coincident, can turn
+        match #1: faces [1, 3]  [in-place]
+  near-miss 01. Test00-180 x 1 SPZ Type 1 1610 TL.1.solid1: faces do not really overlap
+  near-miss 01. Test00-M90S B34(ok).1: faces do not really overlap
+  warning MERGED_FACES: some selected faces are pieces of one surface (e.g. a cylinder stored as two halves) and are treated as one face
+  warning SURFACE_MODEL: these parts are only a skin of faces, not a closed solid. A collision is seen where their skin cuts through your part, but not if your part lies completely inside them: 01. Test00-M90S B34(ok).1
+  warning EMPTY_PART: 6 entries in the file have no faces and are ignored

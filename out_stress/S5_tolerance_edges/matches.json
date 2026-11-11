@@ -1,0 +1,299 @@
+{
+ "part": "tests_stress/S5_tolerance_edges/part.step",
+ "assembly": "tests_stress/S5_tolerance_edges/assembly.step",
+ "selected_faces": [
+  4
+ ],
+ "selection_dof": {
+  "translations": 1,
+  "rotations": 1
+ },
+ "source_occurrences": [
+  "pin"
+ ],
+ "status": "OK",
+ "matches": [
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     7
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 7,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "exact",
+   "clearance": 0.015,
+   "joint": "cylindrical",
+   "behaviour": "coincident, can slide and turn",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.984808,
+     -0.173648,
+     0.0,
+     -78.78462
+    ],
+    [
+     0.173648,
+     0.984808,
+     0.0,
+     -13.891854
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -19.166667
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 1,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     8
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 8,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.6,
+   "joint": "cylindrical",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.984808,
+     -0.173648,
+     0.0,
+     -47.270772
+    ],
+    [
+     0.173648,
+     0.984808,
+     0.0,
+     -8.335113
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -19.166667
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 2,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     9
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 9,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "clearance",
+   "clearance": 0.98,
+   "joint": "cylindrical",
+   "behaviour": "sliding fit",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.984808,
+     -0.173648,
+     0.0,
+     -15.756924
+    ],
+    [
+     0.173648,
+     0.984808,
+     0.0,
+     -2.778371
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -19.166667
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 3,
+   "group": 1
+  },
+  {
+   "found_by": "search",
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "faces": {
+    "plate": [
+     11
+    ]
+   },
+   "pairs": [
+    {
+     "selected_face": 4,
+     "target": "plate",
+     "target_face": 11,
+     "overlap": 1.0
+    }
+   ],
+   "fit": "interference",
+   "clearance": -0.04,
+   "joint": "cylindrical",
+   "behaviour": "press fit (coincident)",
+   "free_directions": [
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "engaged_length_mm": 29.03,
+   "transform": [
+    [
+     0.984808,
+     -0.173648,
+     0.0,
+     47.270772
+    ],
+    [
+     0.173648,
+     0.984808,
+     0.0,
+     8.335113
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -19.166667
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "mean_overlap": 1.0,
+   "id": 4,
+   "group": 1
+  }
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "parts": [
+    "plate"
+   ],
+   "occurrences": [
+    "plate"
+   ],
+   "positions": 4,
+   "match_ids": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "fits": [
+    "clearance",
+    "exact",
+    "interference"
+   ],
+   "joints": [
+    "cylindrical"
+   ]
+  }
+ ],
+ "near_misses": [],
+ "partial_in_place": [],
+ "warnings": [],
+ "seconds": 0.4
+}
