@@ -1,6 +1,7 @@
 # step-assem-prj: auto-mating in a STEP assembly
 
 Select a few faces on a part, and the tool finds every place in a STEP assembly where those faces fit: which part, the matching face IDs, exact or clearance fit, and how the part can still move.
+
 NOTE: Writeup and Outputs files are in this repository.
 ## Install
 
